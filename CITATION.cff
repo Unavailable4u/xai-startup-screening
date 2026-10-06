@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "XAI Startup Screening and Capital Allocation: Bangladesh pilot"
+type: software
+authors:
+  - family-names: "Chowdhury"
+    given-names: "Md Emon"
+  - family-names: "Sayad"
+    given-names: "S. M. Shuaib Islam"
+  - family-names: "Bhuiyan"
+    given-names: "Alvina"
+  - family-names: "Faiza"
+    given-names: "Fahmida"
+  - family-names: "Hosen"
+    given-names: "Abul"
+license: MIT
+repository-code: "https://github.com/<user>/xai-startup-screening"
+version: "0.1.0"
+date-released: "2026-10-06"

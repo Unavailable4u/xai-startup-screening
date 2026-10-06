@@ -1,0 +1,22 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+
+# copyrighted literature (keep in Zotero / private drive)
+literature/pdf/*
+!literature/pdf/.gitkeep
+
+# logs and scratch
+*.log
+nohup.out
+data/interim/*
+!data/interim/.gitkeep
+
+# office temp files
+~$*.xlsx
+~$*.docx
+.~lock.*
