@@ -6,7 +6,7 @@ RAW = ROOT / "data" / "raw"
 PROC = ROOT / "data" / "processed"
 TABLES = ROOT / "results" / "tables"
 FIGS = ROOT / "results" / "figures"
-MODEL_READY = RAW / "Startup_Data_MODEL_READY_BD-ST-001_to_100.xlsx"
+MODEL_READY = RAW / "Startup_Data_MODEL_READY_EXPANDED_v2_recalc.xlsx"
 SEED = 42
 
 TARGETS = {
@@ -22,6 +22,12 @@ NUM_A = ["edu_max_level", "any_stem_founder", "serial_entrepreneur",
          "is_b2b", "is_b2c", "is_marketplace", "is_subscription_saas",
          "is_hardware_iot", "is_transaction_commission"]
 CAT_A = ["sector_group"]
+
+# Core set: features with low missingness across all three countries.
+CORE = ["age_years", "product_stage", "n_founders", "gdp_growth_at_founding",
+        "inflation_at_founding", "foreign_hq_flag", "is_b2b", "is_b2c", "is_marketplace",
+        "is_subscription_saas", "is_hardware_iot", "is_transaction_commission"]
+COUNTRY_DUMMIES = ["is_IN", "is_PK"]
 
 # Set B: A + ecosystem signals that may overlap with funding itself
 EXTRA_B = ["accelerator_participated", "prior_grant_flag"]

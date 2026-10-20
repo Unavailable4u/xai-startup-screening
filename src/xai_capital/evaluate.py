@@ -4,12 +4,13 @@ from sklearn.metrics import roc_auc_score, average_precision_score, brier_score_
 from sklearn.model_selection import RepeatedStratifiedKFold
 from .config import SEED
 
-def repeated_cv_oof(model, X, y, n_splits=5, n_repeats=20):
+def repeated_cv_oof(model, X, y, n_splits=5, n_repeats=20, strata=None):
     """Out-of-fold probabilities, one row per repeat."""
     rskf = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats,
                                    random_state=SEED)
     oof = np.full((n_repeats, len(y)), np.nan)
-    for k, (tr, te) in enumerate(rskf.split(X, y)):
+    split_on = y if strata is None else strata   # e.g. country x label
+    for k, (tr, te) in enumerate(rskf.split(X, split_on)):
         m = clone(model).fit(X.iloc[tr], y.iloc[tr])
         oof[k // n_splits, te] = m.predict_proba(X.iloc[te])[:, 1]
     return oof

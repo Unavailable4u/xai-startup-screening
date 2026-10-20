@@ -1,6 +1,6 @@
 PY := .venv/bin/python
 
-.PHONY: setup audit pilot shap aipw sim km test all
+.PHONY: setup audit pilot shap aipw sim km test main all
 
 setup:
 	python3 -m venv .venv
@@ -29,3 +29,6 @@ test:
 	.venv/bin/pytest -q tests
 
 all: audit test pilot shap aipw sim km
+
+main:
+	$(PY) scripts/run_main_analysis.py
