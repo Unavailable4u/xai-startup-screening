@@ -1,0 +1,13 @@
+sample,features,comparison,delta_auc,ci_lo,ci_hi
+FRAME (primary),neutral,rf - logit_l2,0.04,-0.053,0.136
+FRAME (primary),neutral,xgb - logit_l2,0.025,-0.07,0.12
+FRAME (primary),neutral+sector,rf - logit_l2,0.022,-0.015,0.063
+FRAME (primary),neutral+sector,xgb - logit_l2,0.001,-0.033,0.04
+FRAME (primary),sector_only,rf - logit_l2,-0.014,-0.045,0.023
+FRAME (primary),sector_only,xgb - logit_l2,0.004,-0.021,0.032
+ALL ROWS (sensitivity),neutral,rf - logit_l2,0.038,-0.032,0.114
+ALL ROWS (sensitivity),neutral,xgb - logit_l2,0.007,-0.057,0.08
+ALL ROWS (sensitivity),neutral+sector,rf - logit_l2,0.001,-0.036,0.04
+ALL ROWS (sensitivity),neutral+sector,xgb - logit_l2,-0.017,-0.05,0.023
+ALL ROWS (sensitivity),sector_only,rf - logit_l2,-0.019,-0.046,0.006
+ALL ROWS (sensitivity),sector_only,xgb - logit_l2,-0.002,-0.025,0.018

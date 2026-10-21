@@ -1,6 +1,6 @@
 PY := .venv/bin/python
 
-.PHONY: setup audit pilot shap aipw sim km test main all
+.PHONY: setup audit test main founder shap sim survival audit-sample all legacy-pilot legacy-aipw
 
 setup:
 	python3 -m venv .venv
@@ -10,25 +10,31 @@ setup:
 audit:
 	$(PY) scripts/run_audit.py
 
-pilot:
-	$(PY) scripts/run_pilot.py
+test:
+	.venv/bin/pytest -q tests
+
+main:
+	$(PY) scripts/run_main_analysis.py
+
+founder:
+	$(PY) scripts/run_founder_hypotheses.py
 
 shap:
 	$(PY) scripts/run_shap.py
 
-aipw:
-	$(PY) scripts/run_aipw.py
-
 sim:
 	$(PY) scripts/run_sim.py
 
-km:
-	$(PY) scripts/run_km.py
+survival:
+	$(PY) scripts/run_survival.py
 
-test:
-	.venv/bin/pytest -q tests
+audit-sample:
+	$(PY) scripts/make_audit_sample.py
 
-all: audit test pilot shap aipw sim km
+all: audit test main founder shap sim survival
 
-main:
-	$(PY) scripts/run_main_analysis.py
+legacy-pilot:
+	$(PY) scripts/run_pilot.py
+
+legacy-aipw:
+	$(PY) scripts/run_aipw.py

@@ -1,0 +1,6 @@
+comparison,mean_diff,ci_lo,ci_hi
+xai - black_box,0.0,0.0,0.0
+xai - heuristic,0.053,-0.053,0.147
+xai - econometric,0.067,-0.0,0.147
+black_box - heuristic,0.053,-0.053,0.16
+xai - random,0.307,0.2,0.4

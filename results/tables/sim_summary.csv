@@ -1,0 +1,6 @@
+investor,mean,std
+black_box,0.867,0.192
+econometric,0.8,0.192
+heuristic,0.813,0.169
+random,0.56,0.209
+xai,0.867,0.192

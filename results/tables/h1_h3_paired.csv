@@ -1,0 +1,5 @@
+hypothesis,model,delta_auc,ci_lo,ci_hi,H3_rule_met(delta<0.02)
+H1: founder attrs add to controls,logit_l2,0.136,-0.022,0.289,
+H3: prestige adds to fundamentals,logit_l2,0.006,-0.066,0.081,True
+H1: founder attrs add to controls,rf,0.098,-0.024,0.235,
+H3: prestige adds to fundamentals,rf,-0.008,-0.059,0.049,True

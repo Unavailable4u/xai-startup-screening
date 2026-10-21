@@ -44,3 +44,19 @@ FORBIDDEN = ["follow_on_funding_usd", "follow_on_year", "funding_amount_basis",
              "evaluation_score_1to5", "survival_status", "event_closed",
              "acquired_flag", "duration_months", "any_external_funding",
              "follow_on_funding_received"]
+
+
+# ---- Feature groups (decision D10): sector/business model is reported SEPARATELY ----
+NEUTRAL = ["age_years", "product_stage", "n_founders",
+           "gdp_growth_at_founding", "inflation_at_founding"]
+SECTOR_BIZ = ["is_b2b", "is_b2c", "is_marketplace", "is_subscription_saas",
+              "is_hardware_iot", "is_transaction_commission"]
+FEATURE_GROUPS = {                     # name: (numeric, categorical)
+    "neutral":        (NEUTRAL, []),
+    "neutral+sector": (NEUTRAL + SECTOR_BIZ, CAT_A),
+    "sector_only":    (SECTOR_BIZ, CAT_A),
+}
+# Founder attributes: observed mainly for Bangladesh (see analysis plan, H1/H3/H4)
+FOUNDER = ["edu_max_level", "any_stem_founder", "serial_entrepreneur", "industry_exp_max_years"]
+PRESTIGE = ["edu_max_level", "serial_entrepreneur"]
+FUNDAMENTALS = ["age_years", "product_stage", "n_founders", "industry_exp_max_years", "any_stem_founder"]

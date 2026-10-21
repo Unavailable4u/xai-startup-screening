@@ -49,3 +49,16 @@ def boot_auc(y, p, n_boot=1000, seed=42):
         if len(np.unique(y[i])) == 2:
             b.append(roc_auc_score(y[i], p[i]))
     return roc_auc_score(y, p), np.percentile(b, 2.5), np.percentile(b, 97.5)
+
+
+def paired_boot_diff(y, p1, p2, n_boot=1000, seed=42):
+    """AUC(p1) - AUC(p2) with paired percentile bootstrap CI (same resampled startups)."""
+    from sklearn.metrics import roc_auc_score
+    y, p1, p2 = map(np.asarray, (y, p1, p2))
+    rng = np.random.default_rng(seed)
+    diffs = []
+    for _ in range(n_boot):
+        i = rng.integers(0, len(y), len(y))
+        if len(np.unique(y[i])) == 2:
+            diffs.append(roc_auc_score(y[i], p1[i]) - roc_auc_score(y[i], p2[i]))
+    return (roc_auc_score(y, p1) - roc_auc_score(y, p2), *np.percentile(diffs, [2.5, 97.5]))
