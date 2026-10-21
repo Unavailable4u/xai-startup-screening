@@ -1,0 +1,43 @@
+features,analysis,model,n_unfunded_test,auc,lo,hi
+CORE+sector,pooled+country,logit_l2,59,0.816,0.742,0.884
+CORE+sector,pooled+country,rf,59,0.844,0.781,0.9
+CORE+sector,pooled+country,xgb,59,0.835,0.769,0.898
+CORE+sector,LOCO Bangladesh,logit_l2,23,0.598,0.453,0.737
+CORE+sector,LOCO Bangladesh,rf,23,0.608,0.461,0.744
+CORE+sector,LOCO Bangladesh,xgb,23,0.608,0.448,0.755
+CORE+sector,LOCO India,logit_l2,20,0.889,0.791,0.964
+CORE+sector,LOCO India,rf,20,0.86,0.753,0.947
+CORE+sector,LOCO India,xgb,20,0.848,0.74,0.937
+CORE+sector,LOCO Pakistan,logit_l2,16,0.935,0.851,0.991
+CORE+sector,LOCO Pakistan,rf,16,0.973,0.923,1.0
+CORE+sector,LOCO Pakistan,xgb,16,0.985,0.951,1.0
+CORE no sector/biz-model,pooled+country,logit_l2,59,0.587,0.494,0.674
+CORE no sector/biz-model,pooled+country,rf,59,0.648,0.558,0.733
+CORE no sector/biz-model,pooled+country,xgb,59,0.616,0.52,0.707
+CORE no sector/biz-model,LOCO Bangladesh,logit_l2,23,0.581,0.449,0.707
+CORE no sector/biz-model,LOCO Bangladesh,rf,23,0.642,0.523,0.77
+CORE no sector/biz-model,LOCO Bangladesh,xgb,23,0.614,0.485,0.737
+CORE no sector/biz-model,LOCO India,logit_l2,20,0.559,0.404,0.713
+CORE no sector/biz-model,LOCO India,rf,20,0.568,0.397,0.723
+CORE no sector/biz-model,LOCO India,xgb,20,0.436,0.269,0.605
+CORE no sector/biz-model,LOCO Pakistan,logit_l2,16,0.695,0.491,0.861
+CORE no sector/biz-model,LOCO Pakistan,rf,16,0.72,0.529,0.885
+CORE no sector/biz-model,LOCO Pakistan,xgb,16,0.728,0.542,0.882
+sector+biz-model only,pooled+country,logit_l2,59,0.853,0.791,0.907
+sector+biz-model only,pooled+country,rf,59,0.839,0.775,0.9
+sector+biz-model only,pooled+country,xgb,59,0.852,0.788,0.909
+sector+biz-model only,LOCO Bangladesh,logit_l2,23,0.617,0.471,0.754
+sector+biz-model only,LOCO Bangladesh,rf,23,0.627,0.483,0.768
+sector+biz-model only,LOCO Bangladesh,xgb,23,0.633,0.481,0.773
+sector+biz-model only,LOCO India,logit_l2,20,0.953,0.893,0.991
+sector+biz-model only,LOCO India,rf,20,0.888,0.796,0.967
+sector+biz-model only,LOCO India,xgb,20,0.929,0.855,0.984
+sector+biz-model only,LOCO Pakistan,logit_l2,16,0.97,0.907,1.0
+sector+biz-model only,LOCO Pakistan,rf,16,0.97,0.914,1.0
+sector+biz-model only,LOCO Pakistan,xgb,16,0.985,0.952,1.0
+founder attrs only (BD complete-case),within BD,logit_l2,20,0.794,0.652,0.914
+founder attrs only (BD complete-case),within BD,rf,20,0.739,0.568,0.875
+founder attrs only (BD complete-case),within BD,xgb,20,0.642,0.447,0.812
+"founder attrs + age,stage (BD cc)",within BD,logit_l2,20,0.773,0.619,0.9
+"founder attrs + age,stage (BD cc)",within BD,rf,20,0.782,0.636,0.896
+"founder attrs + age,stage (BD cc)",within BD,xgb,20,0.658,0.474,0.82

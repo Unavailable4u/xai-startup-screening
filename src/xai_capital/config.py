@@ -1,4 +1,5 @@
 """Central configuration: paths, column groups, random seed."""
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -6,7 +7,7 @@ RAW = ROOT / "data" / "raw"
 PROC = ROOT / "data" / "processed"
 TABLES = ROOT / "results" / "tables"
 FIGS = ROOT / "results" / "figures"
-MODEL_READY = RAW / "Startup_Data_MODEL_READY_EXPANDED_v2_recalc.xlsx"
+MODEL_READY = Path(os.environ.get("XAI_DATA", RAW / "Startup_Data_MODEL_READY_EXPANDED_v3_recalc.xlsx"))
 SEED = 42
 
 TARGETS = {
