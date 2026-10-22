@@ -1,25 +1,25 @@
 sample,features,analysis,model,test_set,n,n_unfunded,auc,ci_lo,ci_hi
-FRAME (primary),neutral,pooled + country control,logit_l2,all,188,59,0.581,0.485,0.666
-FRAME (primary),neutral,pooled + country control,logit_l2,Bangladesh,89,23,0.554,0.422,0.685
-FRAME (primary),neutral,pooled + country control,logit_l2,India,58,20,0.616,0.467,0.761
-FRAME (primary),neutral,pooled + country control,logit_l2,Pakistan,41,16,0.549,0.336,0.752
-FRAME (primary),neutral,pooled + country control,rf,all,188,59,0.621,0.53,0.713
-FRAME (primary),neutral,pooled + country control,rf,Bangladesh,89,23,0.625,0.499,0.763
-FRAME (primary),neutral,pooled + country control,rf,India,58,20,0.536,0.385,0.692
-FRAME (primary),neutral,pooled + country control,rf,Pakistan,41,16,0.686,0.505,0.844
-FRAME (primary),neutral,pooled + country control,xgb,all,188,59,0.606,0.507,0.704
-FRAME (primary),neutral,pooled + country control,xgb,Bangladesh,89,23,0.576,0.424,0.735
-FRAME (primary),neutral,pooled + country control,xgb,India,58,20,0.514,0.354,0.677
-FRAME (primary),neutral,pooled + country control,xgb,Pakistan,41,16,0.711,0.531,0.861
-FRAME (primary),neutral,within-country,logit_l2,Bangladesh,89,23,0.545,0.403,0.684
-FRAME (primary),neutral,within-country,rf,Bangladesh,89,23,0.577,0.444,0.719
-FRAME (primary),neutral,within-country,xgb,Bangladesh,89,23,0.594,0.452,0.744
-FRAME (primary),neutral,within-country,logit_l2,India,58,20,0.635,0.487,0.782
-FRAME (primary),neutral,within-country,rf,India,58,20,0.562,0.41,0.708
-FRAME (primary),neutral,within-country,xgb,India,58,20,0.528,0.382,0.677
-FRAME (primary),neutral,within-country,logit_l2,Pakistan,41,16,0.573,0.374,0.771
-FRAME (primary),neutral,within-country,rf,Pakistan,41,16,0.699,0.522,0.855
-FRAME (primary),neutral,within-country,xgb,Pakistan,41,16,0.661,0.488,0.821
+FRAME (primary),neutral,pooled + country control,logit_l2,all,188,59,0.578,0.481,0.663
+FRAME (primary),neutral,pooled + country control,logit_l2,Bangladesh,89,23,0.553,0.418,0.677
+FRAME (primary),neutral,pooled + country control,logit_l2,India,58,20,0.553,0.392,0.711
+FRAME (primary),neutral,pooled + country control,logit_l2,Pakistan,41,16,0.568,0.354,0.767
+FRAME (primary),neutral,pooled + country control,rf,all,188,59,0.65,0.558,0.734
+FRAME (primary),neutral,pooled + country control,rf,Bangladesh,89,23,0.655,0.531,0.78
+FRAME (primary),neutral,pooled + country control,rf,India,58,20,0.558,0.395,0.712
+FRAME (primary),neutral,pooled + country control,rf,Pakistan,41,16,0.708,0.517,0.873
+FRAME (primary),neutral,pooled + country control,xgb,all,188,59,0.625,0.528,0.716
+FRAME (primary),neutral,pooled + country control,xgb,Bangladesh,89,23,0.607,0.465,0.748
+FRAME (primary),neutral,pooled + country control,xgb,India,58,20,0.516,0.355,0.672
+FRAME (primary),neutral,pooled + country control,xgb,Pakistan,41,16,0.698,0.524,0.86
+FRAME (primary),neutral,within-country,logit_l2,Bangladesh,89,23,0.567,0.422,0.712
+FRAME (primary),neutral,within-country,rf,Bangladesh,89,23,0.655,0.531,0.776
+FRAME (primary),neutral,within-country,xgb,Bangladesh,89,23,0.669,0.54,0.797
+FRAME (primary),neutral,within-country,logit_l2,India,58,20,0.621,0.483,0.768
+FRAME (primary),neutral,within-country,rf,India,58,20,0.58,0.433,0.718
+FRAME (primary),neutral,within-country,xgb,India,58,20,0.557,0.408,0.7
+FRAME (primary),neutral,within-country,logit_l2,Pakistan,41,16,0.518,0.319,0.727
+FRAME (primary),neutral,within-country,rf,Pakistan,41,16,0.688,0.515,0.849
+FRAME (primary),neutral,within-country,xgb,Pakistan,41,16,0.667,0.488,0.83
 FRAME (primary),neutral,leave-one-country-out,logit_l2,Bangladesh,89,23,0.581,0.449,0.707
 FRAME (primary),neutral,leave-one-country-out,rf,Bangladesh,89,23,0.642,0.523,0.77
 FRAME (primary),neutral,leave-one-country-out,xgb,Bangladesh,89,23,0.614,0.485,0.737
@@ -29,27 +29,27 @@ FRAME (primary),neutral,leave-one-country-out,xgb,India,58,20,0.436,0.269,0.605
 FRAME (primary),neutral,leave-one-country-out,logit_l2,Pakistan,41,16,0.695,0.491,0.861
 FRAME (primary),neutral,leave-one-country-out,rf,Pakistan,41,16,0.72,0.529,0.885
 FRAME (primary),neutral,leave-one-country-out,xgb,Pakistan,41,16,0.728,0.542,0.882
-FRAME (primary),neutral+sector,pooled + country control,logit_l2,all,188,59,0.82,0.75,0.883
-FRAME (primary),neutral+sector,pooled + country control,logit_l2,Bangladesh,89,23,0.6,0.429,0.755
-FRAME (primary),neutral+sector,pooled + country control,logit_l2,India,58,20,0.951,0.892,0.992
-FRAME (primary),neutral+sector,pooled + country control,logit_l2,Pakistan,41,16,0.94,0.868,0.992
-FRAME (primary),neutral+sector,pooled + country control,rf,all,188,59,0.843,0.78,0.901
-FRAME (primary),neutral+sector,pooled + country control,rf,Bangladesh,89,23,0.674,0.534,0.814
-FRAME (primary),neutral+sector,pooled + country control,rf,India,58,20,0.916,0.837,0.977
+FRAME (primary),neutral+sector,pooled + country control,logit_l2,all,188,59,0.832,0.762,0.897
+FRAME (primary),neutral+sector,pooled + country control,logit_l2,Bangladesh,89,23,0.594,0.424,0.758
+FRAME (primary),neutral+sector,pooled + country control,logit_l2,India,58,20,0.939,0.875,0.984
+FRAME (primary),neutral+sector,pooled + country control,logit_l2,Pakistan,41,16,0.968,0.914,1.0
+FRAME (primary),neutral+sector,pooled + country control,rf,all,188,59,0.848,0.785,0.903
+FRAME (primary),neutral+sector,pooled + country control,rf,Bangladesh,89,23,0.658,0.525,0.796
+FRAME (primary),neutral+sector,pooled + country control,rf,India,58,20,0.926,0.851,0.984
 FRAME (primary),neutral+sector,pooled + country control,rf,Pakistan,41,16,0.965,0.91,1.0
-FRAME (primary),neutral+sector,pooled + country control,xgb,all,188,59,0.822,0.75,0.886
-FRAME (primary),neutral+sector,pooled + country control,xgb,Bangladesh,89,23,0.639,0.479,0.783
-FRAME (primary),neutral+sector,pooled + country control,xgb,India,58,20,0.908,0.825,0.969
-FRAME (primary),neutral+sector,pooled + country control,xgb,Pakistan,41,16,0.955,0.888,0.998
-FRAME (primary),neutral+sector,within-country,logit_l2,Bangladesh,89,23,0.57,0.387,0.727
-FRAME (primary),neutral+sector,within-country,rf,Bangladesh,89,23,0.611,0.47,0.755
-FRAME (primary),neutral+sector,within-country,xgb,Bangladesh,89,23,0.64,0.511,0.781
-FRAME (primary),neutral+sector,within-country,logit_l2,India,58,20,0.925,0.854,0.978
-FRAME (primary),neutral+sector,within-country,rf,India,58,20,0.934,0.867,0.985
-FRAME (primary),neutral+sector,within-country,xgb,India,58,20,0.886,0.776,0.966
-FRAME (primary),neutral+sector,within-country,logit_l2,Pakistan,41,16,0.95,0.88,0.995
+FRAME (primary),neutral+sector,pooled + country control,xgb,all,188,59,0.842,0.776,0.902
+FRAME (primary),neutral+sector,pooled + country control,xgb,Bangladesh,89,23,0.648,0.49,0.799
+FRAME (primary),neutral+sector,pooled + country control,xgb,India,58,20,0.92,0.841,0.979
+FRAME (primary),neutral+sector,pooled + country control,xgb,Pakistan,41,16,0.963,0.9,1.0
+FRAME (primary),neutral+sector,within-country,logit_l2,Bangladesh,89,23,0.555,0.39,0.715
+FRAME (primary),neutral+sector,within-country,rf,Bangladesh,89,23,0.668,0.538,0.797
+FRAME (primary),neutral+sector,within-country,xgb,Bangladesh,89,23,0.708,0.582,0.838
+FRAME (primary),neutral+sector,within-country,logit_l2,India,58,20,0.938,0.871,0.983
+FRAME (primary),neutral+sector,within-country,rf,India,58,20,0.932,0.861,0.981
+FRAME (primary),neutral+sector,within-country,xgb,India,58,20,0.876,0.772,0.96
+FRAME (primary),neutral+sector,within-country,logit_l2,Pakistan,41,16,0.958,0.892,0.995
 FRAME (primary),neutral+sector,within-country,rf,Pakistan,41,16,0.95,0.88,0.994
-FRAME (primary),neutral+sector,within-country,xgb,Pakistan,41,16,0.932,0.854,0.987
+FRAME (primary),neutral+sector,within-country,xgb,Pakistan,41,16,0.94,0.865,0.99
 FRAME (primary),neutral+sector,leave-one-country-out,logit_l2,Bangladesh,89,23,0.608,0.452,0.753
 FRAME (primary),neutral+sector,leave-one-country-out,rf,Bangladesh,89,23,0.627,0.474,0.767
 FRAME (primary),neutral+sector,leave-one-country-out,xgb,Bangladesh,89,23,0.594,0.442,0.741
@@ -59,27 +59,27 @@ FRAME (primary),neutral+sector,leave-one-country-out,xgb,India,58,20,0.814,0.69,
 FRAME (primary),neutral+sector,leave-one-country-out,logit_l2,Pakistan,41,16,0.927,0.836,0.991
 FRAME (primary),neutral+sector,leave-one-country-out,rf,Pakistan,41,16,0.978,0.937,1.0
 FRAME (primary),neutral+sector,leave-one-country-out,xgb,Pakistan,41,16,0.983,0.945,1.0
-FRAME (primary),sector_only,pooled + country control,logit_l2,all,188,59,0.856,0.794,0.908
-FRAME (primary),sector_only,pooled + country control,logit_l2,Bangladesh,89,23,0.638,0.486,0.776
-FRAME (primary),sector_only,pooled + country control,logit_l2,India,58,20,0.942,0.875,0.987
-FRAME (primary),sector_only,pooled + country control,logit_l2,Pakistan,41,16,0.985,0.952,1.0
-FRAME (primary),sector_only,pooled + country control,rf,all,188,59,0.843,0.78,0.9
-FRAME (primary),sector_only,pooled + country control,rf,Bangladesh,89,23,0.615,0.458,0.772
-FRAME (primary),sector_only,pooled + country control,rf,India,58,20,0.939,0.875,0.986
-FRAME (primary),sector_only,pooled + country control,rf,Pakistan,41,16,0.978,0.927,1.0
-FRAME (primary),sector_only,pooled + country control,xgb,all,188,59,0.86,0.8,0.914
-FRAME (primary),sector_only,pooled + country control,xgb,Bangladesh,89,23,0.647,0.502,0.791
-FRAME (primary),sector_only,pooled + country control,xgb,India,58,20,0.943,0.881,0.987
-FRAME (primary),sector_only,pooled + country control,xgb,Pakistan,41,16,0.98,0.934,1.0
-FRAME (primary),sector_only,within-country,logit_l2,Bangladesh,89,23,0.578,0.416,0.733
-FRAME (primary),sector_only,within-country,rf,Bangladesh,89,23,0.568,0.409,0.729
-FRAME (primary),sector_only,within-country,xgb,Bangladesh,89,23,0.665,0.505,0.813
-FRAME (primary),sector_only,within-country,logit_l2,India,58,20,0.918,0.841,0.976
-FRAME (primary),sector_only,within-country,rf,India,58,20,0.941,0.877,0.987
-FRAME (primary),sector_only,within-country,xgb,India,58,20,0.893,0.796,0.966
-FRAME (primary),sector_only,within-country,logit_l2,Pakistan,41,16,0.968,0.914,1.0
-FRAME (primary),sector_only,within-country,rf,Pakistan,41,16,0.95,0.885,0.993
-FRAME (primary),sector_only,within-country,xgb,Pakistan,41,16,0.925,0.831,0.984
+FRAME (primary),sector_only,pooled + country control,logit_l2,all,188,59,0.854,0.791,0.908
+FRAME (primary),sector_only,pooled + country control,logit_l2,Bangladesh,89,23,0.61,0.453,0.757
+FRAME (primary),sector_only,pooled + country control,logit_l2,India,58,20,0.942,0.876,0.986
+FRAME (primary),sector_only,pooled + country control,logit_l2,Pakistan,41,16,0.992,0.971,1.0
+FRAME (primary),sector_only,pooled + country control,rf,all,188,59,0.843,0.778,0.903
+FRAME (primary),sector_only,pooled + country control,rf,Bangladesh,89,23,0.588,0.429,0.753
+FRAME (primary),sector_only,pooled + country control,rf,India,58,20,0.947,0.891,0.988
+FRAME (primary),sector_only,pooled + country control,rf,Pakistan,41,16,0.978,0.932,1.0
+FRAME (primary),sector_only,pooled + country control,xgb,all,188,59,0.856,0.794,0.913
+FRAME (primary),sector_only,pooled + country control,xgb,Bangladesh,89,23,0.632,0.482,0.779
+FRAME (primary),sector_only,pooled + country control,xgb,India,58,20,0.936,0.868,0.984
+FRAME (primary),sector_only,pooled + country control,xgb,Pakistan,41,16,0.98,0.936,1.0
+FRAME (primary),sector_only,within-country,logit_l2,Bangladesh,89,23,0.53,0.364,0.695
+FRAME (primary),sector_only,within-country,rf,Bangladesh,89,23,0.563,0.406,0.721
+FRAME (primary),sector_only,within-country,xgb,Bangladesh,89,23,0.609,0.457,0.762
+FRAME (primary),sector_only,within-country,logit_l2,India,58,20,0.921,0.844,0.976
+FRAME (primary),sector_only,within-country,rf,India,58,20,0.939,0.874,0.986
+FRAME (primary),sector_only,within-country,xgb,India,58,20,0.888,0.791,0.962
+FRAME (primary),sector_only,within-country,logit_l2,Pakistan,41,16,0.97,0.921,1.0
+FRAME (primary),sector_only,within-country,rf,Pakistan,41,16,0.953,0.889,0.995
+FRAME (primary),sector_only,within-country,xgb,Pakistan,41,16,0.945,0.877,0.992
 FRAME (primary),sector_only,leave-one-country-out,logit_l2,Bangladesh,89,23,0.617,0.471,0.754
 FRAME (primary),sector_only,leave-one-country-out,rf,Bangladesh,89,23,0.627,0.483,0.768
 FRAME (primary),sector_only,leave-one-country-out,xgb,Bangladesh,89,23,0.633,0.481,0.773
@@ -89,27 +89,27 @@ FRAME (primary),sector_only,leave-one-country-out,xgb,India,58,20,0.929,0.855,0.
 FRAME (primary),sector_only,leave-one-country-out,logit_l2,Pakistan,41,16,0.97,0.907,1.0
 FRAME (primary),sector_only,leave-one-country-out,rf,Pakistan,41,16,0.97,0.914,1.0
 FRAME (primary),sector_only,leave-one-country-out,xgb,Pakistan,41,16,0.985,0.952,1.0
-ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,all,211,75,0.66,0.579,0.738
-ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,Bangladesh,99,28,0.599,0.473,0.713
-ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,India,64,25,0.638,0.487,0.776
-ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,Pakistan,48,22,0.762,0.591,0.9
-ALL ROWS (sensitivity),neutral,pooled + country control,rf,all,211,75,0.699,0.629,0.772
-ALL ROWS (sensitivity),neutral,pooled + country control,rf,Bangladesh,99,28,0.682,0.566,0.789
-ALL ROWS (sensitivity),neutral,pooled + country control,rf,India,64,25,0.619,0.485,0.757
-ALL ROWS (sensitivity),neutral,pooled + country control,rf,Pakistan,48,22,0.79,0.644,0.913
-ALL ROWS (sensitivity),neutral,pooled + country control,xgb,all,211,75,0.667,0.594,0.747
-ALL ROWS (sensitivity),neutral,pooled + country control,xgb,Bangladesh,99,28,0.64,0.509,0.754
-ALL ROWS (sensitivity),neutral,pooled + country control,xgb,India,64,25,0.59,0.447,0.73
-ALL ROWS (sensitivity),neutral,pooled + country control,xgb,Pakistan,48,22,0.767,0.609,0.902
-ALL ROWS (sensitivity),neutral,within-country,logit_l2,Bangladesh,99,28,0.54,0.414,0.669
-ALL ROWS (sensitivity),neutral,within-country,rf,Bangladesh,99,28,0.653,0.537,0.769
-ALL ROWS (sensitivity),neutral,within-country,xgb,Bangladesh,99,28,0.665,0.535,0.777
-ALL ROWS (sensitivity),neutral,within-country,logit_l2,India,64,25,0.632,0.498,0.764
-ALL ROWS (sensitivity),neutral,within-country,rf,India,64,25,0.486,0.348,0.632
-ALL ROWS (sensitivity),neutral,within-country,xgb,India,64,25,0.504,0.366,0.649
-ALL ROWS (sensitivity),neutral,within-country,logit_l2,Pakistan,48,22,0.659,0.484,0.83
-ALL ROWS (sensitivity),neutral,within-country,rf,Pakistan,48,22,0.731,0.573,0.864
-ALL ROWS (sensitivity),neutral,within-country,xgb,Pakistan,48,22,0.689,0.52,0.83
+ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,all,211,75,0.647,0.566,0.726
+ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,Bangladesh,99,28,0.582,0.452,0.699
+ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,India,64,25,0.65,0.505,0.788
+ALL ROWS (sensitivity),neutral,pooled + country control,logit_l2,Pakistan,48,22,0.726,0.549,0.879
+ALL ROWS (sensitivity),neutral,pooled + country control,rf,all,211,75,0.7,0.631,0.774
+ALL ROWS (sensitivity),neutral,pooled + country control,rf,Bangladesh,99,28,0.684,0.558,0.793
+ALL ROWS (sensitivity),neutral,pooled + country control,rf,India,64,25,0.625,0.489,0.765
+ALL ROWS (sensitivity),neutral,pooled + country control,rf,Pakistan,48,22,0.785,0.637,0.911
+ALL ROWS (sensitivity),neutral,pooled + country control,xgb,all,211,75,0.672,0.6,0.749
+ALL ROWS (sensitivity),neutral,pooled + country control,xgb,Bangladesh,99,28,0.658,0.528,0.778
+ALL ROWS (sensitivity),neutral,pooled + country control,xgb,India,64,25,0.591,0.444,0.728
+ALL ROWS (sensitivity),neutral,pooled + country control,xgb,Pakistan,48,22,0.755,0.6,0.891
+ALL ROWS (sensitivity),neutral,within-country,logit_l2,Bangladesh,99,28,0.546,0.409,0.673
+ALL ROWS (sensitivity),neutral,within-country,rf,Bangladesh,99,28,0.652,0.522,0.763
+ALL ROWS (sensitivity),neutral,within-country,xgb,Bangladesh,99,28,0.659,0.537,0.772
+ALL ROWS (sensitivity),neutral,within-country,logit_l2,India,64,25,0.641,0.506,0.77
+ALL ROWS (sensitivity),neutral,within-country,rf,India,64,25,0.591,0.459,0.727
+ALL ROWS (sensitivity),neutral,within-country,xgb,India,64,25,0.606,0.471,0.749
+ALL ROWS (sensitivity),neutral,within-country,logit_l2,Pakistan,48,22,0.664,0.487,0.822
+ALL ROWS (sensitivity),neutral,within-country,rf,Pakistan,48,22,0.741,0.576,0.874
+ALL ROWS (sensitivity),neutral,within-country,xgb,Pakistan,48,22,0.694,0.529,0.839
 ALL ROWS (sensitivity),neutral,leave-one-country-out,logit_l2,Bangladesh,99,28,0.609,0.484,0.723
 ALL ROWS (sensitivity),neutral,leave-one-country-out,rf,Bangladesh,99,28,0.666,0.546,0.777
 ALL ROWS (sensitivity),neutral,leave-one-country-out,xgb,Bangladesh,99,28,0.618,0.489,0.738
@@ -119,27 +119,27 @@ ALL ROWS (sensitivity),neutral,leave-one-country-out,xgb,India,64,25,0.5,0.345,0
 ALL ROWS (sensitivity),neutral,leave-one-country-out,logit_l2,Pakistan,48,22,0.668,0.502,0.819
 ALL ROWS (sensitivity),neutral,leave-one-country-out,rf,Pakistan,48,22,0.794,0.643,0.918
 ALL ROWS (sensitivity),neutral,leave-one-country-out,xgb,Pakistan,48,22,0.715,0.554,0.857
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,all,211,75,0.845,0.786,0.902
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,Bangladesh,99,28,0.608,0.463,0.739
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,India,64,25,0.944,0.886,0.984
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,Pakistan,48,22,0.972,0.921,1.0
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,all,211,75,0.846,0.787,0.897
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,Bangladesh,99,28,0.674,0.539,0.8
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,India,64,25,0.92,0.84,0.985
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,Pakistan,48,22,0.969,0.918,0.998
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,all,211,75,0.829,0.768,0.889
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,Bangladesh,99,28,0.638,0.494,0.768
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,India,64,25,0.898,0.811,0.973
-ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,Pakistan,48,22,0.981,0.942,1.0
-ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,Bangladesh,99,28,0.52,0.378,0.644
-ALL ROWS (sensitivity),neutral+sector,within-country,rf,Bangladesh,99,28,0.647,0.505,0.776
-ALL ROWS (sensitivity),neutral+sector,within-country,xgb,Bangladesh,99,28,0.679,0.551,0.791
-ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,India,64,25,0.898,0.814,0.96
-ALL ROWS (sensitivity),neutral+sector,within-country,rf,India,64,25,0.912,0.826,0.979
-ALL ROWS (sensitivity),neutral+sector,within-country,xgb,India,64,25,0.876,0.781,0.95
-ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,Pakistan,48,22,0.941,0.864,0.991
-ALL ROWS (sensitivity),neutral+sector,within-country,rf,Pakistan,48,22,0.939,0.86,0.989
-ALL ROWS (sensitivity),neutral+sector,within-country,xgb,Pakistan,48,22,0.908,0.8,0.98
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,all,211,75,0.839,0.776,0.897
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,Bangladesh,99,28,0.594,0.45,0.726
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,India,64,25,0.936,0.871,0.984
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,logit_l2,Pakistan,48,22,0.972,0.918,1.0
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,all,211,75,0.845,0.787,0.896
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,Bangladesh,99,28,0.657,0.519,0.785
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,India,64,25,0.914,0.832,0.979
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,rf,Pakistan,48,22,0.969,0.922,0.998
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,all,211,75,0.832,0.771,0.888
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,Bangladesh,99,28,0.649,0.51,0.773
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,India,64,25,0.896,0.81,0.97
+ALL ROWS (sensitivity),neutral+sector,pooled + country control,xgb,Pakistan,48,22,0.969,0.921,1.0
+ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,Bangladesh,99,28,0.52,0.379,0.652
+ALL ROWS (sensitivity),neutral+sector,within-country,rf,Bangladesh,99,28,0.647,0.511,0.772
+ALL ROWS (sensitivity),neutral+sector,within-country,xgb,Bangladesh,99,28,0.664,0.535,0.781
+ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,India,64,25,0.936,0.872,0.983
+ALL ROWS (sensitivity),neutral+sector,within-country,rf,India,64,25,0.923,0.846,0.981
+ALL ROWS (sensitivity),neutral+sector,within-country,xgb,India,64,25,0.877,0.784,0.95
+ALL ROWS (sensitivity),neutral+sector,within-country,logit_l2,Pakistan,48,22,0.963,0.906,0.996
+ALL ROWS (sensitivity),neutral+sector,within-country,rf,Pakistan,48,22,0.939,0.858,0.986
+ALL ROWS (sensitivity),neutral+sector,within-country,xgb,Pakistan,48,22,0.909,0.804,0.982
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,logit_l2,Bangladesh,99,28,0.64,0.502,0.762
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,rf,Bangladesh,99,28,0.632,0.504,0.752
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,xgb,Bangladesh,99,28,0.617,0.482,0.734
@@ -149,27 +149,27 @@ ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,xgb,India,64,25,0.76
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,logit_l2,Pakistan,48,22,0.862,0.729,0.97
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,rf,Pakistan,48,22,0.958,0.897,0.998
 ALL ROWS (sensitivity),neutral+sector,leave-one-country-out,xgb,Pakistan,48,22,0.97,0.92,1.0
-ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,all,211,75,0.844,0.786,0.901
-ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,Bangladesh,99,28,0.618,0.482,0.739
-ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,India,64,25,0.921,0.845,0.979
-ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,Pakistan,48,22,0.976,0.935,1.0
-ALL ROWS (sensitivity),sector_only,pooled + country control,rf,all,211,75,0.824,0.759,0.88
-ALL ROWS (sensitivity),sector_only,pooled + country control,rf,Bangladesh,99,28,0.591,0.446,0.711
-ALL ROWS (sensitivity),sector_only,pooled + country control,rf,India,64,25,0.91,0.826,0.983
-ALL ROWS (sensitivity),sector_only,pooled + country control,rf,Pakistan,48,22,0.964,0.906,1.0
-ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,all,211,75,0.841,0.78,0.896
-ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,Bangladesh,99,28,0.603,0.457,0.729
-ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,India,64,25,0.909,0.819,0.983
-ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,Pakistan,48,22,0.98,0.943,1.0
-ALL ROWS (sensitivity),sector_only,within-country,logit_l2,Bangladesh,99,28,0.528,0.379,0.652
-ALL ROWS (sensitivity),sector_only,within-country,rf,Bangladesh,99,28,0.574,0.431,0.703
-ALL ROWS (sensitivity),sector_only,within-country,xgb,Bangladesh,99,28,0.62,0.474,0.743
-ALL ROWS (sensitivity),sector_only,within-country,logit_l2,India,64,25,0.864,0.766,0.941
-ALL ROWS (sensitivity),sector_only,within-country,rf,India,64,25,0.91,0.828,0.975
-ALL ROWS (sensitivity),sector_only,within-country,xgb,India,64,25,0.881,0.792,0.953
-ALL ROWS (sensitivity),sector_only,within-country,logit_l2,Pakistan,48,22,0.934,0.852,0.986
-ALL ROWS (sensitivity),sector_only,within-country,rf,Pakistan,48,22,0.925,0.843,0.983
-ALL ROWS (sensitivity),sector_only,within-country,xgb,Pakistan,48,22,0.906,0.804,0.975
+ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,all,211,75,0.841,0.782,0.898
+ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,Bangladesh,99,28,0.598,0.467,0.715
+ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,India,64,25,0.914,0.837,0.975
+ALL ROWS (sensitivity),sector_only,pooled + country control,logit_l2,Pakistan,48,22,0.986,0.957,1.0
+ALL ROWS (sensitivity),sector_only,pooled + country control,rf,all,211,75,0.833,0.767,0.887
+ALL ROWS (sensitivity),sector_only,pooled + country control,rf,Bangladesh,99,28,0.605,0.459,0.73
+ALL ROWS (sensitivity),sector_only,pooled + country control,rf,India,64,25,0.915,0.825,0.986
+ALL ROWS (sensitivity),sector_only,pooled + country control,rf,Pakistan,48,22,0.958,0.898,0.998
+ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,all,211,75,0.837,0.774,0.894
+ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,Bangladesh,99,28,0.577,0.441,0.701
+ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,India,64,25,0.908,0.815,0.983
+ALL ROWS (sensitivity),sector_only,pooled + country control,xgb,Pakistan,48,22,0.972,0.924,1.0
+ALL ROWS (sensitivity),sector_only,within-country,logit_l2,Bangladesh,99,28,0.524,0.386,0.652
+ALL ROWS (sensitivity),sector_only,within-country,rf,Bangladesh,99,28,0.556,0.409,0.692
+ALL ROWS (sensitivity),sector_only,within-country,xgb,Bangladesh,99,28,0.574,0.43,0.702
+ALL ROWS (sensitivity),sector_only,within-country,logit_l2,India,64,25,0.913,0.836,0.971
+ALL ROWS (sensitivity),sector_only,within-country,rf,India,64,25,0.936,0.872,0.983
+ALL ROWS (sensitivity),sector_only,within-country,xgb,India,64,25,0.891,0.811,0.957
+ALL ROWS (sensitivity),sector_only,within-country,logit_l2,Pakistan,48,22,0.963,0.91,0.998
+ALL ROWS (sensitivity),sector_only,within-country,rf,Pakistan,48,22,0.934,0.856,0.983
+ALL ROWS (sensitivity),sector_only,within-country,xgb,Pakistan,48,22,0.93,0.848,0.983
 ALL ROWS (sensitivity),sector_only,leave-one-country-out,logit_l2,Bangladesh,99,28,0.641,0.515,0.757
 ALL ROWS (sensitivity),sector_only,leave-one-country-out,rf,Bangladesh,99,28,0.63,0.503,0.756
 ALL ROWS (sensitivity),sector_only,leave-one-country-out,xgb,Bangladesh,99,28,0.625,0.499,0.733

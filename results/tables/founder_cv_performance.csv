@@ -1,11 +1,11 @@
 feature_set,model,auc,ci_lo,ci_hi
-controls only,logit_l2,0.667,0.501,0.824
-controls only,rf,0.706,0.549,0.846
-founder only,logit_l2,0.794,0.652,0.914
-founder only,rf,0.739,0.568,0.875
-controls + founder,logit_l2,0.803,0.655,0.915
-controls + founder,rf,0.805,0.664,0.922
-fundamentals,logit_l2,0.77,0.613,0.9
-fundamentals,rf,0.791,0.635,0.918
-fundamentals + prestige,logit_l2,0.776,0.613,0.907
-fundamentals + prestige,rf,0.783,0.625,0.918
+controls only,logit_l2,0.645,0.472,0.801
+controls only,rf,0.705,0.55,0.849
+founder only,logit_l2,0.794,0.647,0.909
+founder only,rf,0.748,0.577,0.884
+controls + founder,logit_l2,0.791,0.643,0.909
+controls + founder,rf,0.817,0.677,0.933
+fundamentals,logit_l2,0.764,0.604,0.9
+fundamentals,rf,0.794,0.636,0.915
+fundamentals + prestige,logit_l2,0.776,0.614,0.909
+fundamentals + prestige,rf,0.795,0.638,0.93

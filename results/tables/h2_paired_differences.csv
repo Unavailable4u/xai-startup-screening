@@ -1,13 +1,13 @@
 sample,features,comparison,delta_auc,ci_lo,ci_hi
-FRAME (primary),neutral,rf - logit_l2,0.04,-0.053,0.136
-FRAME (primary),neutral,xgb - logit_l2,0.025,-0.07,0.12
-FRAME (primary),neutral+sector,rf - logit_l2,0.022,-0.015,0.063
-FRAME (primary),neutral+sector,xgb - logit_l2,0.001,-0.033,0.04
-FRAME (primary),sector_only,rf - logit_l2,-0.014,-0.045,0.023
-FRAME (primary),sector_only,xgb - logit_l2,0.004,-0.021,0.032
-ALL ROWS (sensitivity),neutral,rf - logit_l2,0.038,-0.032,0.114
-ALL ROWS (sensitivity),neutral,xgb - logit_l2,0.007,-0.057,0.08
-ALL ROWS (sensitivity),neutral+sector,rf - logit_l2,0.001,-0.036,0.04
-ALL ROWS (sensitivity),neutral+sector,xgb - logit_l2,-0.017,-0.05,0.023
-ALL ROWS (sensitivity),sector_only,rf - logit_l2,-0.019,-0.046,0.006
-ALL ROWS (sensitivity),sector_only,xgb - logit_l2,-0.002,-0.025,0.018
+FRAME (primary),neutral,rf - logit_l2,0.072,-0.018,0.161
+FRAME (primary),neutral,xgb - logit_l2,0.047,-0.036,0.129
+FRAME (primary),neutral+sector,rf - logit_l2,0.016,-0.02,0.056
+FRAME (primary),neutral+sector,xgb - logit_l2,0.01,-0.023,0.046
+FRAME (primary),sector_only,rf - logit_l2,-0.011,-0.042,0.024
+FRAME (primary),sector_only,xgb - logit_l2,0.002,-0.023,0.03
+ALL ROWS (sensitivity),neutral,rf - logit_l2,0.053,-0.016,0.134
+ALL ROWS (sensitivity),neutral,xgb - logit_l2,0.025,-0.04,0.101
+ALL ROWS (sensitivity),neutral+sector,rf - logit_l2,0.006,-0.027,0.044
+ALL ROWS (sensitivity),neutral+sector,xgb - logit_l2,-0.007,-0.038,0.027
+ALL ROWS (sensitivity),sector_only,rf - logit_l2,-0.008,-0.032,0.018
+ALL ROWS (sensitivity),sector_only,xgb - logit_l2,-0.004,-0.027,0.018
