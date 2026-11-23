@@ -11,7 +11,7 @@ Outputs (results/tables/):
   source_comparable_h2.csv    H2 paired differences in that subsample
   source_identification.csv   among unfunded firms only: can the features tell v3-directory from other unfunded?
 
-Run after run_audit. Env: XAI_REPEATS (default 10).
+Run after run_audit. Env: XAI_REPEATS (default 20 = repeats behind the committed tables).
 """
 import os, sys, warnings; warnings.filterwarnings("ignore")
 sys.path.insert(0, "src")
@@ -23,7 +23,7 @@ from xai_capital.models import make_models
 from xai_capital.evaluate import repeated_cv_oof
 
 SEC = os.environ.get("XAI_SECTIONS", "2,3,4").split(",")   # sections 2-4 are model runs; 1 always runs
-REP = int(os.environ.get("XAI_REPEATS", 10))
+REP = int(os.environ.get("XAI_REPEATS", 20))
 MODELS = ("logit_l2", "rf", "xgb")
 TGT = C.TARGETS["primary"]
 COUNTRIES = ["Bangladesh", "India", "Pakistan"]

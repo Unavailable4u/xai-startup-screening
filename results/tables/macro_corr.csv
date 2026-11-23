@@ -1,0 +1,4 @@
+country,n,"rho(gdp, founding_year)","rho(infl, founding_year)","rho(gdp, funded)","rho(infl, funded)","rho(founding_year, funded)"
+Bangladesh,89,0.17,-0.49,0.2,-0.04,0.02
+India,58,-0.3,-0.88,-0.02,0.03,-0.03
+Pakistan,41,-0.17,0.5,-0.18,0.15,0.31

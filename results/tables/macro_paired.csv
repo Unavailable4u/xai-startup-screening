@@ -1,0 +1,7 @@
+original,minus_ablated,model,delta_auc,ci_lo,ci_hi
+neutral (original),"neutral, no macro",logit_l2,-0.035,-0.068,-0.011
+neutral (original),"neutral, no macro",rf,-0.005,-0.057,0.05
+neutral (original),"neutral, no macro",xgb,-0.012,-0.065,0.042
+neutral+sector (original),"neutral+sector, no macro",logit_l2,-0.008,-0.015,-0.003
+neutral+sector (original),"neutral+sector, no macro",rf,-0.006,-0.024,0.013
+neutral+sector (original),"neutral+sector, no macro",xgb,-0.002,-0.021,0.018

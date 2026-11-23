@@ -1,0 +1,19 @@
+spec,model,n,n_unfunded,auc,ci_lo,ci_hi
+neutral (original),logit_l2,147,18,0.419,0.278,0.581
+neutral (original),rf,147,18,0.597,0.477,0.709
+neutral (original),xgb,147,18,0.504,0.382,0.62
+"neutral, no macro",logit_l2,147,18,0.474,0.319,0.643
+"neutral, no macro",rf,147,18,0.508,0.374,0.658
+"neutral, no macro",xgb,147,18,0.452,0.322,0.601
+neutral+sector (original),logit_l2,147,18,0.565,0.414,0.699
+neutral+sector (original),rf,147,18,0.649,0.544,0.749
+neutral+sector (original),xgb,147,18,0.571,0.434,0.702
+"neutral+sector, no macro",logit_l2,147,18,0.585,0.433,0.722
+"neutral+sector, no macro",rf,147,18,0.59,0.456,0.713
+"neutral+sector, no macro",xgb,147,18,0.568,0.426,0.711
+"PAIRED neutral (original) - neutral, no macro",logit_l2,147,18,-0.056,-0.112,-0.015
+"PAIRED neutral (original) - neutral, no macro",rf,147,18,0.089,-0.007,0.183
+"PAIRED neutral (original) - neutral, no macro",xgb,147,18,0.053,-0.069,0.168
+"PAIRED neutral+sector (original) - neutral+sector, no macro",logit_l2,147,18,-0.019,-0.045,0.004
+"PAIRED neutral+sector (original) - neutral+sector, no macro",rf,147,18,0.059,-0.014,0.138
+"PAIRED neutral+sector (original) - neutral+sector, no macro",xgb,147,18,0.003,-0.082,0.097

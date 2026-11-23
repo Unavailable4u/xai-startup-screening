@@ -1,0 +1,11 @@
+investor,mean,std,version
+black_box,0.87,0.17,original
+econometric,0.8,0.195,original
+heuristic,0.797,0.2,original
+random,0.643,0.243,original
+xai,0.867,0.177,original
+black_box,0.803,0.207,no macro
+econometric,0.753,0.21,no macro
+heuristic,0.797,0.2,no macro
+random,0.643,0.243,no macro
+xai,0.803,0.207,no macro

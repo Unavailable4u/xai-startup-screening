@@ -9,7 +9,7 @@ from xai_capital.data import load_startups, labelled, in_frame, boot_auc, paired
 from xai_capital.models import make_models
 from xai_capital.evaluate import repeated_cv_oof
 
-REP = int(os.environ.get("XAI_REPEATS", 10))
+REP = int(os.environ.get("XAI_REPEATS", 20))
 MIN_UNFUNDED = 8
 MODELS = ("logit_l2", "rf", "xgb")
 TGT = C.TARGETS["primary"]

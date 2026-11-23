@@ -21,3 +21,4 @@ data/interim/*
 ~$*.docx
 .~lock.*
 .cache_stem/
+.cache_macro/

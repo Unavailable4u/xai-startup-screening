@@ -1,0 +1,22 @@
+spec,model,n,auc,ci_lo,ci_hi,auc_Bangladesh,auc_India,auc_Pakistan
+neutral (original),logit_l2,188,0.578,0.481,0.663,0.553,0.553,0.568
+neutral (original),rf,188,0.65,0.558,0.734,0.655,0.558,0.708
+neutral (original),xgb,188,0.625,0.528,0.716,0.607,0.516,0.698
+"neutral, no macro",logit_l2,188,0.613,0.524,0.7,0.547,0.634,0.617
+"neutral, no macro",rf,188,0.655,0.566,0.742,0.658,0.616,0.645
+"neutral, no macro",xgb,188,0.636,0.549,0.724,0.63,0.518,0.68
+neutral+sector (original),logit_l2,188,0.832,0.762,0.897,0.594,0.939,0.968
+neutral+sector (original),rf,188,0.848,0.785,0.903,0.658,0.926,0.965
+neutral+sector (original),xgb,188,0.842,0.776,0.902,0.648,0.92,0.963
+"neutral+sector, no macro",logit_l2,188,0.84,0.769,0.904,0.601,0.954,0.972
+"neutral+sector, no macro",rf,188,0.853,0.79,0.908,0.647,0.947,0.973
+"neutral+sector, no macro",xgb,188,0.844,0.776,0.905,0.644,0.922,0.97
+diag: macro only (+country),logit_l2,188,0.457,0.368,0.543,0.342,0.172,0.198
+diag: macro only (+country),rf,188,0.563,0.47,0.657,0.514,0.545,0.588
+diag: macro only (+country),xgb,188,0.553,0.456,0.647,0.491,0.511,0.573
+diag: age only (+country),logit_l2,188,0.562,0.469,0.649,0.462,0.446,0.648
+diag: age only (+country),rf,188,0.548,0.453,0.644,0.414,0.587,0.58
+diag: age only (+country),xgb,188,0.535,0.446,0.628,0.435,0.507,0.542
+"diag: no macro, no age (+country)",logit_l2,188,0.619,0.526,0.702,0.521,0.625,0.593
+"diag: no macro, no age (+country)",rf,188,0.637,0.551,0.725,0.524,0.553,0.603
+"diag: no macro, no age (+country)",xgb,188,0.627,0.539,0.715,0.462,0.53,0.53

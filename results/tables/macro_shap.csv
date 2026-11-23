@@ -1,0 +1,71 @@
+case,rank,feature,mean_abs_shap
+pooled neutral | original,1,n_founders,0.508
+pooled neutral | original,2,gdp_growth_at_founding,0.397
+pooled neutral | original,3,inflation_at_founding,0.2
+pooled neutral | original,4,age_years,0.134
+pooled neutral | original,5,is_IN,0.075
+pooled neutral | original,6,is_PK,0.028
+pooled neutral | original,7,product_stage,0.0
+pooled neutral | no macro,1,n_founders,0.504
+pooled neutral | no macro,2,age_years,0.271
+pooled neutral | no macro,3,is_PK,0.252
+pooled neutral | no macro,4,is_IN,0.199
+pooled neutral | no macro,5,product_stage,0.0
+pooled neutral+sector | original,1,is_subscription_saas,0.576
+pooled neutral+sector | original,2,sector_group_IT/SaaS/AI/IoT,0.549
+pooled neutral+sector | original,3,is_marketplace,0.24
+pooled neutral+sector | original,4,gdp_growth_at_founding,0.229
+pooled neutral+sector | original,5,n_founders,0.214
+pooled neutral+sector | original,6,inflation_at_founding,0.176
+pooled neutral+sector | original,7,is_transaction_commission,0.151
+pooled neutral+sector | original,8,sector_group_Other,0.137
+pooled neutral+sector | original,9,sector_group_E-commerce,0.131
+pooled neutral+sector | original,10,is_IN,0.097
+pooled neutral+sector | original,11,is_b2b,0.089
+pooled neutral+sector | original,12,is_b2c,0.072
+pooled neutral+sector | original,13,sector_group_Fintech,0.068
+pooled neutral+sector | original,14,sector_group_HealthTech,0.055
+pooled neutral+sector | original,15,age_years,0.052
+pooled neutral+sector | original,16,sector_group_Logistics/Travel,0.039
+pooled neutral+sector | original,17,sector_group_EdTech,0.029
+pooled neutral+sector | original,18,is_PK,0.006
+pooled neutral+sector | original,19,is_hardware_iot,0.002
+pooled neutral+sector | original,20,product_stage,0.0
+pooled neutral+sector | original,21,sector_group_AgriTech,0.0
+pooled neutral+sector | original,22,sector_group_Media,0.0
+pooled neutral+sector | no macro,1,is_subscription_saas,0.614
+pooled neutral+sector | no macro,2,sector_group_IT/SaaS/AI/IoT,0.538
+pooled neutral+sector | no macro,3,n_founders,0.239
+pooled neutral+sector | no macro,4,is_marketplace,0.229
+pooled neutral+sector | no macro,5,is_IN,0.168
+pooled neutral+sector | no macro,6,sector_group_E-commerce,0.16
+pooled neutral+sector | no macro,7,sector_group_Other,0.15
+pooled neutral+sector | no macro,8,is_transaction_commission,0.129
+pooled neutral+sector | no macro,9,is_b2b,0.098
+pooled neutral+sector | no macro,10,sector_group_Fintech,0.088
+pooled neutral+sector | no macro,11,age_years,0.088
+pooled neutral+sector | no macro,12,is_PK,0.085
+pooled neutral+sector | no macro,13,sector_group_HealthTech,0.067
+pooled neutral+sector | no macro,14,is_b2c,0.062
+pooled neutral+sector | no macro,15,sector_group_Logistics/Travel,0.052
+pooled neutral+sector | no macro,16,sector_group_EdTech,0.05
+pooled neutral+sector | no macro,17,is_hardware_iot,0.012
+pooled neutral+sector | no macro,18,product_stage,0.0
+pooled neutral+sector | no macro,19,sector_group_AgriTech,0.0
+pooled neutral+sector | no macro,20,sector_group_Media,0.0
+BD founder rows | original,1,industry_exp_max_years,0.649
+BD founder rows | original,2,gdp_growth_at_founding,0.642
+BD founder rows | original,3,n_founders,0.397
+BD founder rows | original,4,edu_max_level,0.26
+BD founder rows | original,5,inflation_at_founding,0.131
+BD founder rows | original,6,age_years,0.119
+BD founder rows | original,7,serial_entrepreneur,0.029
+BD founder rows | original,8,any_stem_founder,0.021
+BD founder rows | original,9,product_stage,0.0
+BD founder rows | no macro,1,industry_exp_max_years,0.656
+BD founder rows | no macro,2,n_founders,0.507
+BD founder rows | no macro,3,edu_max_level,0.232
+BD founder rows | no macro,4,age_years,0.225
+BD founder rows | no macro,5,any_stem_founder,0.088
+BD founder rows | no macro,6,serial_entrepreneur,0.057
+BD founder rows | no macro,7,product_stage,0.0
