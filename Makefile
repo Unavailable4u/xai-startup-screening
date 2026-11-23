@@ -1,6 +1,6 @@
 PY := .venv/bin/python
 
-.PHONY: setup audit test main founder shap sim source stem macro survival audit-sample all legacy-pilot legacy-aipw
+.PHONY: setup audit test main founder shap sim source stem macro h4 survival audit-sample all legacy-pilot legacy-aipw
 
 setup:
 	python3 -m venv .venv
@@ -34,13 +34,16 @@ stem:
 macro:
 	$(PY) scripts/run_macro_ablation.py
 
+h4:
+	$(PY) scripts/run_h4_diagnostics.py
+
 survival:
 	$(PY) scripts/run_survival.py
 
 audit-sample:
 	$(PY) scripts/make_audit_sample.py
 
-all: audit test main founder shap sim source stem macro survival
+all: audit test main founder shap sim source stem macro h4 survival
 
 legacy-pilot:
 	$(PY) scripts/run_pilot.py

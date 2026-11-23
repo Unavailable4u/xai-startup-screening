@@ -1,29 +1,29 @@
 spec,model,n,n_unfunded,auc,ci_lo,ci_hi
-country only,logit_l2,188,59,0.552,0.46,0.638
-country only,rf,188,59,0.555,0.465,0.638
-country only,xgb,188,59,0.544,0.455,0.63
-source flag only,logit_l2,188,59,0.75,0.647,0.84
-source flag only,rf,188,59,0.747,0.641,0.839
-source flag only,xgb,188,59,0.75,0.648,0.839
-source flag + country,logit_l2,188,59,0.705,0.59,0.811
-source flag + country,rf,188,59,0.723,0.617,0.824
-source flag + country,xgb,188,59,0.739,0.632,0.835
-neutral (+country),logit_l2,188,59,0.581,0.484,0.665
-neutral (+country),rf,188,59,0.655,0.563,0.736
-neutral (+country),xgb,188,59,0.625,0.528,0.717
-neutral + source flag,logit_l2,188,59,0.808,0.72,0.887
-neutral + source flag,rf,188,59,0.882,0.817,0.936
-neutral + source flag,xgb,188,59,0.85,0.773,0.916
-neutral+sector (+country),logit_l2,188,59,0.83,0.761,0.894
-neutral+sector (+country),rf,188,59,0.849,0.79,0.902
-neutral+sector (+country),xgb,188,59,0.842,0.775,0.902
-neutral+sector + source flag,logit_l2,188,59,0.871,0.8,0.932
-neutral+sector + source flag,rf,188,59,0.903,0.846,0.95
-neutral+sector + source flag,xgb,188,59,0.878,0.81,0.934
-sector only (+country),logit_l2,188,59,0.852,0.788,0.907
-sector only (+country),rf,188,59,0.838,0.772,0.9
-sector only (+country),xgb,188,59,0.852,0.79,0.911
-sector only + source flag,logit_l2,188,59,0.885,0.821,0.94
-sector only + source flag,rf,188,59,0.88,0.813,0.938
-sector only + source flag,xgb,188,59,0.868,0.801,0.925
+country only,logit_l2,188,59,0.546,0.454,0.631
+country only,rf,188,59,0.548,0.456,0.635
+country only,xgb,188,59,0.529,0.438,0.617
+source flag only,logit_l2,188,59,0.724,0.613,0.823
+source flag only,rf,188,59,0.724,0.616,0.824
+source flag only,xgb,188,59,0.725,0.618,0.823
+source flag + country,logit_l2,188,59,0.713,0.603,0.817
+source flag + country,rf,188,59,0.716,0.607,0.816
+source flag + country,xgb,188,59,0.754,0.651,0.848
+neutral (+country),logit_l2,188,59,0.578,0.481,0.663
+neutral (+country),rf,188,59,0.65,0.558,0.734
+neutral (+country),xgb,188,59,0.625,0.528,0.716
+neutral + source flag,logit_l2,188,59,0.815,0.73,0.893
+neutral + source flag,rf,188,59,0.885,0.823,0.938
+neutral + source flag,xgb,188,59,0.856,0.781,0.919
+neutral+sector (+country),logit_l2,188,59,0.832,0.762,0.897
+neutral+sector (+country),rf,188,59,0.848,0.785,0.903
+neutral+sector (+country),xgb,188,59,0.842,0.776,0.902
+neutral+sector + source flag,logit_l2,188,59,0.872,0.8,0.933
+neutral+sector + source flag,rf,188,59,0.904,0.847,0.951
+neutral+sector + source flag,xgb,188,59,0.882,0.816,0.937
+sector only (+country),logit_l2,188,59,0.854,0.791,0.908
+sector only (+country),rf,188,59,0.843,0.778,0.903
+sector only (+country),xgb,188,59,0.856,0.794,0.913
+sector only + source flag,logit_l2,188,59,0.886,0.822,0.94
+sector only + source flag,rf,188,59,0.883,0.816,0.939
+sector only + source flag,xgb,188,59,0.878,0.814,0.933
 "source flag only (fixed rule, no fitting)",rule,188,59,0.847,0.788,0.902

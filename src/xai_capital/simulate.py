@@ -10,14 +10,21 @@ def _heuristic_score(X):
     return X[PRESTIGE].fillna(0).sum(axis=1).to_numpy() + 1e-6 * np.random.default_rng(SEED).random(len(X))
 
 def _xai_filter(xgb_pipe, X_test, tau):
-    """Flag candidates whose |SHAP| mass is dominated by prestige proxies or
-    missing-value indicators. Threshold tau is chosen BEFORE seeing results."""
+    """Flag candidates whose |SHAP| mass is dominated by prestige proxies or by missing-value attribution.
+    Threshold tau = 0.40 was fixed in advance (analysis_plan.md). 'Missing-value attribution' = SHAP mass on features
+    that are NaN for that candidate (XGBoost handles NaN natively, so no explicit *_missing columns exist; the earlier
+    version searched for such columns and could never fire). With no NaNs in the simulation features (the current
+    Bangladesh founder-complete sample) the two criteria coincide with the prestige share alone."""
     pre, clf = xgb_pipe.named_steps["pre"], xgb_pipe.named_steps["clf"]
     Xt = pre.transform(X_test)
     names = [c.split("__", 1)[-1] for c in pre.get_feature_names_out()]
-    sv = np.abs(shap.TreeExplainer(clf).shap_values(Xt))
-    bad = [i for i, n in enumerate(names) if n in PRESTIGE or n.endswith("_missing")]
-    share = sv[:, bad].sum(axis=1) / np.maximum(sv.sum(axis=1), 1e-12)
+    sv = np.abs(np.asarray(shap.TreeExplainer(clf).shap_values(Xt)))
+    nan_mask = np.zeros_like(sv, dtype=bool)
+    for j, n in enumerate(names):
+        if n in X_test.columns:
+            nan_mask[:, j] = X_test[n].isna().to_numpy()
+    bad = np.isin(names, PRESTIGE)[None, :] | nan_mask
+    share = (sv * bad).sum(axis=1) / np.maximum(sv.sum(axis=1), 1e-12)
     return share <= tau          # True = allowed
 
 def run(models, X, y, outcome, k_frac=0.3, tau=0.4, n_repeats=5):

@@ -1,7 +1,7 @@
 features,comparison,delta_auc,ci_lo,ci_hi
-neutral,rf - logit_l2,0.16,-0.029,0.344
-neutral,xgb - logit_l2,0.074,-0.074,0.233
-neutral+sector,rf - logit_l2,0.09,-0.048,0.222
-neutral+sector,xgb - logit_l2,-0.002,-0.123,0.128
-sector_only,rf - logit_l2,-0.008,-0.094,0.079
-sector_only,xgb - logit_l2,0.026,-0.053,0.109
+neutral,rf - logit_l2,0.179,-0.006,0.363
+neutral,xgb - logit_l2,0.086,-0.064,0.236
+neutral+sector,rf - logit_l2,0.084,-0.045,0.225
+neutral+sector,xgb - logit_l2,0.005,-0.116,0.14
+sector_only,rf - logit_l2,-0.005,-0.094,0.085
+sector_only,xgb - logit_l2,0.041,-0.041,0.121

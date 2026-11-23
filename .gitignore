@@ -22,3 +22,4 @@ data/interim/*
 .~lock.*
 .cache_stem/
 .cache_macro/
+.cache_h4/

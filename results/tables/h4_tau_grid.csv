@@ -1,0 +1,43 @@
+spec,filter,tau,pct_candidates_excluded,folds_picks_changed_pct,hit_xai,hit_black_box,diff_foldlevel,fl_lo,fl_hi,diff_firmlevel,firm_lo,firm_hi
+original,plan as coded (prestige + *_missing cols),0.4,0.1,1.0,0.867,0.87,-0.003,-0.01,0.0,-0.003,-0.011,0.0
+original,plan as coded (prestige + *_missing cols),0.3,1.9,4.0,0.863,0.87,-0.007,-0.017,0.0,-0.007,-0.018,0.0
+original,plan as coded (prestige + *_missing cols),0.25,5.8,8.0,0.853,0.87,-0.017,-0.033,-0.003,-0.017,-0.039,-0.001
+original,plan as coded (prestige + *_missing cols),0.2,12.9,18.0,0.81,0.87,-0.06,-0.1,-0.027,-0.06,-0.113,-0.02
+original,plan as coded (prestige + *_missing cols),0.15,30.1,40.0,0.8,0.87,-0.07,-0.11,-0.033,-0.07,-0.136,-0.017
+original,plan as coded (prestige + *_missing cols),0.1,57.3,71.0,0.76,0.87,-0.11,-0.157,-0.067,-0.11,-0.217,-0.008
+original,plan as coded (prestige + *_missing cols),0.05,82.9,89.0,0.79,0.87,-0.08,-0.12,-0.043,-0.08,-0.197,0.014
+original,plan with NaN attribution (prestige + NaN-feature mass),0.4,0.1,1.0,0.867,0.87,-0.003,-0.013,0.0,-0.003,-0.011,0.0
+original,plan with NaN attribution (prestige + NaN-feature mass),0.3,1.9,4.0,0.863,0.87,-0.007,-0.017,0.0,-0.007,-0.018,0.0
+original,plan with NaN attribution (prestige + NaN-feature mass),0.25,5.8,8.0,0.853,0.87,-0.017,-0.037,-0.003,-0.017,-0.039,-0.001
+original,plan with NaN attribution (prestige + NaN-feature mass),0.2,12.9,18.0,0.81,0.87,-0.06,-0.1,-0.027,-0.06,-0.113,-0.02
+original,plan with NaN attribution (prestige + NaN-feature mass),0.15,30.1,40.0,0.8,0.87,-0.07,-0.11,-0.033,-0.07,-0.136,-0.017
+original,plan with NaN attribution (prestige + NaN-feature mass),0.1,57.3,71.0,0.76,0.87,-0.11,-0.157,-0.063,-0.11,-0.217,-0.008
+original,plan with NaN attribution (prestige + NaN-feature mass),0.05,82.9,89.0,0.79,0.87,-0.08,-0.12,-0.043,-0.08,-0.197,0.014
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.4,52.6,66.0,0.813,0.87,-0.057,-0.093,-0.02,-0.057,-0.152,0.035
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.3,81.9,93.0,0.83,0.87,-0.04,-0.08,-0.0,-0.04,-0.163,0.076
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.25,92.4,99.0,0.853,0.87,-0.017,-0.05,0.013,-0.017,-0.14,0.098
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.2,96.6,99.0,0.867,0.87,-0.003,-0.037,0.027,-0.003,-0.121,0.103
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.15,98.8,100.0,0.873,0.87,0.003,-0.03,0.037,0.003,-0.118,0.118
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.1,99.8,100.0,0.87,0.87,-0.0,-0.033,0.033,0.0,-0.126,0.115
+original,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.05,100.0,100.0,0.87,0.87,-0.0,-0.03,0.03,0.0,-0.126,0.115
+no macro,plan as coded (prestige + *_missing cols),0.4,0.3,0.0,0.803,0.803,0.0,0.0,0.0,0.0,0.0,0.0
+no macro,plan as coded (prestige + *_missing cols),0.3,2.4,2.0,0.803,0.803,0.0,-0.01,0.01,0.0,-0.009,0.008
+no macro,plan as coded (prestige + *_missing cols),0.25,5.6,7.0,0.797,0.803,-0.007,-0.02,0.007,-0.007,-0.021,0.008
+no macro,plan as coded (prestige + *_missing cols),0.2,11.4,15.0,0.797,0.803,-0.007,-0.027,0.007,-0.007,-0.033,0.017
+no macro,plan as coded (prestige + *_missing cols),0.15,25.8,29.0,0.8,0.803,-0.003,-0.023,0.017,-0.003,-0.04,0.037
+no macro,plan as coded (prestige + *_missing cols),0.1,50.6,53.0,0.8,0.803,-0.003,-0.03,0.02,-0.003,-0.057,0.065
+no macro,plan as coded (prestige + *_missing cols),0.05,77.4,79.0,0.84,0.803,0.037,0.007,0.07,0.037,-0.033,0.133
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.4,0.3,0.0,0.803,0.803,0.0,0.0,0.0,0.0,0.0,0.0
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.3,2.4,2.0,0.803,0.803,0.0,-0.01,0.01,0.0,-0.009,0.008
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.25,5.6,7.0,0.797,0.803,-0.007,-0.02,0.007,-0.007,-0.021,0.008
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.2,11.4,15.0,0.797,0.803,-0.007,-0.023,0.007,-0.007,-0.033,0.017
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.15,25.8,29.0,0.8,0.803,-0.003,-0.027,0.017,-0.003,-0.04,0.037
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.1,50.6,53.0,0.8,0.803,-0.003,-0.03,0.02,-0.003,-0.057,0.065
+no macro,plan with NaN attribution (prestige + NaN-feature mass),0.05,77.4,79.0,0.84,0.803,0.037,0.003,0.067,0.037,-0.033,0.133
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.4,0.5,0.0,0.803,0.803,0.0,0.0,0.0,0.0,0.0,0.0
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.3,10.0,14.0,0.79,0.803,-0.013,-0.03,0.0,-0.013,-0.038,0.005
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.25,27.0,37.0,0.763,0.803,-0.04,-0.073,-0.007,-0.04,-0.111,0.018
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.2,50.5,59.0,0.73,0.803,-0.073,-0.113,-0.037,-0.073,-0.15,-0.002
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.15,70.8,72.0,0.777,0.803,-0.027,-0.063,0.007,-0.027,-0.107,0.053
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.1,85.1,83.0,0.8,0.803,-0.003,-0.037,0.027,-0.003,-0.08,0.084
+no macro,EXPLORATORY artifact filter (macro + sector/biz-model mass),0.05,96.5,93.0,0.853,0.803,0.05,0.023,0.077,0.05,-0.032,0.15
