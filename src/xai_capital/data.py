@@ -18,6 +18,16 @@ def load_startups(only_independent: bool = False, only_country: str | None = Non
                      ("inflation_cpi_pct", "inflation_at_founding")):
         df[dst] = [ml[src].get((c, int(y)), np.nan) if pd.notna(y) else np.nan
                    for c, y in zip(df["country"], df["founding_year"])]
+    # Sampling source (review item: funded and unfunded rows come from different sources).
+    #   v1_BD_original      : Bangladesh original collector files (convenience / known-firm sample)
+    #   v2_IN_PK_purposive  : India/Pakistan purposive sample (documented funded cases + searched unfunded)
+    #   v3_directory_unfunded: directory-listing sample of unfunded firms (ids >= 300, collected 2026-10-20)
+    # Derived from the startup_id number; checked against date_collected in scripts/run_source_checks.py.
+    _num = df["startup_id"].str[-3:].astype(int)
+    df["sample_source"] = np.where(_num >= 300, "v3_directory_unfunded",
+                                   np.where(df["country"] == "Bangladesh",
+                                            "v1_BD_original", "v2_IN_PK_purposive"))
+    df["src_v3"] = (df["sample_source"] == "v3_directory_unfunded").astype(int)
     df["is_IN"] = (df["country"] == "India").astype(int)
     df["is_PK"] = (df["country"] == "Pakistan").astype(int)
     if only_independent:

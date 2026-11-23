@@ -1,0 +1,10 @@
+sector_group,v1_BD_original|unfunded,v1_BD_original|funded,v2_IN_PK_purposive|unfunded,v2_IN_PK_purposive|funded,v3_directory_unfunded|unfunded
+AgriTech,2,4,0,0,1
+E-commerce,2,7,0,24,0
+EdTech,0,9,0,4,8
+Fintech,1,9,1,14,0
+HealthTech,2,14,0,4,1
+IT/SaaS/AI/IoT,1,7,3,2,22
+Logistics/Travel,1,13,0,8,1
+Media,0,1,2,2,1
+Other,0,2,3,5,7

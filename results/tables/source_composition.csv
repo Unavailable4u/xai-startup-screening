@@ -1,0 +1,10 @@
+sample_source,country,n,funded,unfunded,pct_unfunded
+v1_BD_original,Bangladesh,75,66,9,12.0
+v2_IN_PK_purposive,India,43,38,5,11.6
+v2_IN_PK_purposive,Pakistan,29,25,4,13.8
+v3_directory_unfunded,Bangladesh,14,0,14,100.0
+v3_directory_unfunded,India,15,0,15,100.0
+v3_directory_unfunded,Pakistan,12,0,12,100.0
+v1_BD_original,ALL,75,66,9,12.0
+v2_IN_PK_purposive,ALL,72,63,9,12.5
+v3_directory_unfunded,ALL,41,0,41,100.0

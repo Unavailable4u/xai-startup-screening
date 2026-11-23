@@ -1,0 +1,4 @@
+country,n,n_unfunded,n_unfunded_v3,rule_auc,ci_lo,ci_hi
+Bangladesh,89,23,14,0.804,0.7,0.897
+India,58,20,15,0.875,0.775,0.967
+Pakistan,41,16,12,0.875,0.767,0.971

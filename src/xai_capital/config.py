@@ -60,3 +60,7 @@ FEATURE_GROUPS = {                     # name: (numeric, categorical)
 FOUNDER = ["edu_max_level", "any_stem_founder", "serial_entrepreneur", "industry_exp_max_years"]
 PRESTIGE = ["edu_max_level", "serial_entrepreneur"]
 FUNDAMENTALS = ["age_years", "product_stage", "n_founders", "industry_exp_max_years", "any_stem_founder"]
+
+
+# ---- Sampling-source diagnostics (never a screening feature; used only to test the source confound) ----
+SOURCE = ["src_v3"]        # 1 = directory-listing unfunded sample (100% unfunded by construction)
