@@ -1,0 +1,12 @@
+version,feature,odds_ratio_per_SD,ci_lo,ci_hi
+with STEM,edu_max_level,2.19,1.34,3.8
+with STEM,any_stem_founder,0.32,0.24,0.47
+with STEM,serial_entrepreneur,1.44,0.86,2.32
+with STEM,industry_exp_max_years,1.05,0.62,2.35
+with STEM,age_years,1.02,0.6,2.0
+with STEM,product_stage,1.5,1.0,1.83
+no STEM,edu_max_level,2.07,1.27,3.87
+no STEM,serial_entrepreneur,0.97,0.59,1.6
+no STEM,industry_exp_max_years,1.26,0.7,2.97
+no STEM,age_years,0.96,0.58,1.91
+no STEM,product_stage,1.51,1.0,1.87

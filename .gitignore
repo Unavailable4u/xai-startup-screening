@@ -20,3 +20,4 @@ data/interim/*
 ~$*.xlsx
 ~$*.docx
 .~lock.*
+.cache_stem/

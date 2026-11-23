@@ -1,0 +1,17 @@
+comparison,model,delta_auc,ci_lo,ci_hi
+H1 (with STEM): controls+founder - controls,logit_l2,0.145,-0.012,0.302
+H1 (no STEM):   controls+founder - controls,logit_l2,0.056,-0.104,0.207
+H3 (with STEM): fundamentals+prestige - fundamentals,logit_l2,0.012,-0.063,0.091
+H3 (no STEM):   fundamentals+prestige - fundamentals,logit_l2,-0.035,-0.126,0.055
+STEM's share of H1: [controls+STEM only] - controls,logit_l2,0.088,0.011,0.188
+STEM contribution: controls+founder (with) - (no STEM),logit_l2,0.089,0.028,0.166
+STEM contribution: founder only (with) - (no STEM),logit_l2,0.13,0.041,0.233
+STEM contribution: fundamentals (with) - (no STEM),logit_l2,0.077,0.011,0.157
+H1 (with STEM): controls+founder - controls,rf,0.112,-0.005,0.247
+H1 (no STEM):   controls+founder - controls,rf,0.089,-0.037,0.223
+H3 (with STEM): fundamentals+prestige - fundamentals,rf,0.002,-0.046,0.051
+H3 (no STEM):   fundamentals+prestige - fundamentals,rf,-0.006,-0.063,0.058
+STEM's share of H1: [controls+STEM only] - controls,rf,0.056,-0.009,0.132
+STEM contribution: controls+founder (with) - (no STEM),rf,0.023,-0.002,0.059
+STEM contribution: founder only (with) - (no STEM),rf,0.07,0.011,0.141
+STEM contribution: fundamentals (with) - (no STEM),rf,0.035,-0.01,0.091

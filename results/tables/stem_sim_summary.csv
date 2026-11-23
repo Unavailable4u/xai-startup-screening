@@ -1,0 +1,11 @@
+investor,mean,std,version
+black_box,0.87,0.17,with STEM
+econometric,0.8,0.195,with STEM
+heuristic,0.797,0.2,with STEM
+random,0.643,0.243,with STEM
+xai,0.867,0.177,with STEM
+black_box,0.887,0.166,no STEM
+econometric,0.733,0.207,no STEM
+heuristic,0.797,0.2,no STEM
+random,0.643,0.243,no STEM
+xai,0.883,0.173,no STEM

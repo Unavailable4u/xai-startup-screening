@@ -1,0 +1,18 @@
+version,rank,feature,mean_abs_shap
+with STEM,1,industry_exp_max_years,0.649
+with STEM,2,gdp_growth_at_founding,0.642
+with STEM,3,n_founders,0.397
+with STEM,4,edu_max_level,0.26
+with STEM,5,inflation_at_founding,0.131
+with STEM,6,age_years,0.119
+with STEM,7,serial_entrepreneur,0.029
+with STEM,8,any_stem_founder,0.021
+with STEM,9,product_stage,0.0
+no STEM,1,gdp_growth_at_founding,0.681
+no STEM,2,industry_exp_max_years,0.643
+no STEM,3,n_founders,0.388
+no STEM,4,edu_max_level,0.251
+no STEM,5,inflation_at_founding,0.145
+no STEM,6,age_years,0.104
+no STEM,7,serial_entrepreneur,0.057
+no STEM,8,product_stage,0.0
