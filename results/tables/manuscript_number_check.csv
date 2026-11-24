@@ -1,0 +1,228 @@
+section,claim,manuscript,computed,status
+3.1,master dataset entries,225.0,225.0,PASS
+3.2,entries with a binary funding label,211.0,211.0,PASS
+3.2,primary analytic sample,188.0,188.0,PASS
+3.2,Bangladesh startups,89.0,89.0,PASS
+3.2,India startups,58.0,58.0,PASS
+3.2,Pakistan startups,41.0,41.0,PASS
+3.2,funded,129.0,129.0,PASS
+3.2,no disclosed funding,59.0,59.0,PASS
+T1,Bangladesh funded,66.0,66.0,PASS
+T1,Bangladesh unfunded,23.0,23.0,PASS
+T1,Bangladesh closures,2.0,2.0,PASS
+T1,India funded,38.0,38.0,PASS
+T1,India unfunded,20.0,20.0,PASS
+T1,India closures,16.0,16.0,PASS
+T1,Pakistan funded,25.0,25.0,PASS
+T1,Pakistan unfunded,16.0,16.0,PASS
+T1,Pakistan closures,10.0,10.0,PASS
+3.6,closures in India + Pakistan,26.0,26.0,PASS
+3.6,entries with no recorded accelerator participation (of 225),143.0,143.0,PASS
+3.6,entries missing highest industry experience (of 225),115.0,115.0,PASS
+3.6,entries missing number of founders (of 225),22.0,22.0,PASS
+3.6,entries missing education level (of 225),93.0,93.0,PASS
+3.6,entries missing STEM indicator (of 225),99.0,99.0,PASS
+3.6,entries missing serial-entrepreneur indicator (of 225),114.0,114.0,PASS
+3.3,minimum age of unfunded firms >= 36 months (years),3.0,3.0,PASS
+F1,IT/SaaS/AI/IoT % unfunded,74.0,74.2857,PASS
+F1,Other % unfunded,59.0,58.8235,PASS
+F1,Media % unfunded,50.0,50.0,PASS
+F1,AgriTech % unfunded,43.0,42.8571,PASS
+F1,EdTech % unfunded,38.0,38.0952,PASS
+F1,HealthTech % unfunded,14.0,14.2857,PASS
+F1,Logistics/Travel % unfunded,9.0,8.6957,PASS
+F1,Fintech % unfunded,8.0,8.0,PASS
+F1,E-commerce % unfunded,6.0,6.0606,PASS
+3.6,Bangladesh unfunded with complete founder data (of 23),20.0,20.0,PASS
+3.6,Bangladesh funded with complete founder data (of 66),33.0,33.0,PASS
+3.6,India unfunded with complete founder data (of 20),15.0,15.0,PASS
+3.6,India funded with complete founder data (of 38),0.0,0.0,PASS
+3.6,Pakistan unfunded with complete founder data (of 16),12.0,12.0,PASS
+3.6,Pakistan funded with complete founder data (of 25),0.0,0.0,PASS
+5.5,Bangladesh complete cases,53.0,53.0,PASS
+5.5,  funded,33.0,33.0,PASS
+5.5,  unfunded,20.0,20.0,PASS
+5.5,"mean education level, funded",1.79,1.7879,PASS
+5.5,"mean education level, unfunded",1.25,1.25,PASS
+5.5,"mean industry experience, funded (yrs)",12.5,12.5455,PASS
+5.5,"mean industry experience, unfunded (yrs)",8.2,8.15,PASS
+5.5,share of funded complete cases with STEM founder,0.67,0.6667,PASS
+5.5,unfunded complete cases with STEM founder (share),1.0,1.0,PASS
+5.7,sample financing proportion,0.62,0.6226,PASS
+T2,neutral/logit_l2 pooled AUC,0.58,0.578,PASS
+T2,neutral/logit_l2 CI lo,0.48,0.481,PASS
+T2,neutral/logit_l2 CI hi,0.66,0.663,PASS
+T2,neutral/logit_l2 LOCO Bangladesh,0.58,0.581,PASS
+T2,neutral/logit_l2 LOCO India,0.56,0.559,PASS
+T2,neutral/logit_l2 LOCO Pakistan,0.69,0.695,PASS
+T2,neutral/rf pooled AUC,0.65,0.65,PASS
+T2,neutral/rf CI lo,0.56,0.558,PASS
+T2,neutral/rf CI hi,0.73,0.734,PASS
+T2,neutral/rf LOCO Bangladesh,0.64,0.642,PASS
+T2,neutral/rf LOCO India,0.57,0.568,PASS
+T2,neutral/rf LOCO Pakistan,0.72,0.72,PASS
+T2,neutral/xgb pooled AUC,0.62,0.625,PASS
+T2,neutral/xgb CI lo,0.53,0.528,PASS
+T2,neutral/xgb CI hi,0.72,0.716,PASS
+T2,neutral/xgb LOCO Bangladesh,0.61,0.614,PASS
+T2,neutral/xgb LOCO India,0.44,0.436,PASS
+T2,neutral/xgb LOCO Pakistan,0.73,0.728,PASS
+T2,neutral+sector/logit_l2 pooled AUC,0.83,0.832,PASS
+T2,neutral+sector/logit_l2 CI lo,0.76,0.762,PASS
+T2,neutral+sector/logit_l2 CI hi,0.9,0.897,PASS
+T2,neutral+sector/logit_l2 LOCO Bangladesh,0.61,0.608,PASS
+T2,neutral+sector/logit_l2 LOCO India,0.88,0.877,PASS
+T2,neutral+sector/logit_l2 LOCO Pakistan,0.93,0.927,PASS
+T2,neutral+sector/rf pooled AUC,0.85,0.848,PASS
+T2,neutral+sector/rf CI lo,0.79,0.785,PASS
+T2,neutral+sector/rf CI hi,0.9,0.903,PASS
+T2,neutral+sector/rf LOCO Bangladesh,0.63,0.627,PASS
+T2,neutral+sector/rf LOCO India,0.84,0.844,PASS
+T2,neutral+sector/rf LOCO Pakistan,0.98,0.978,PASS
+T2,neutral+sector/xgb pooled AUC,0.84,0.842,PASS
+T2,neutral+sector/xgb CI lo,0.78,0.776,PASS
+T2,neutral+sector/xgb CI hi,0.9,0.902,PASS
+T2,neutral+sector/xgb LOCO Bangladesh,0.59,0.594,PASS
+T2,neutral+sector/xgb LOCO India,0.81,0.814,PASS
+T2,neutral+sector/xgb LOCO Pakistan,0.98,0.983,PASS
+T2,sector_only/logit_l2 pooled AUC,0.85,0.854,PASS
+T2,sector_only/logit_l2 CI lo,0.79,0.791,PASS
+T2,sector_only/logit_l2 CI hi,0.91,0.908,PASS
+T2,sector_only/logit_l2 LOCO Bangladesh,0.62,0.617,PASS
+T2,sector_only/logit_l2 LOCO India,0.95,0.953,PASS
+T2,sector_only/logit_l2 LOCO Pakistan,0.97,0.97,PASS
+T2,sector_only/rf pooled AUC,0.84,0.843,PASS
+T2,sector_only/rf CI lo,0.78,0.778,PASS
+T2,sector_only/rf CI hi,0.9,0.903,PASS
+T2,sector_only/rf LOCO Bangladesh,0.63,0.627,PASS
+T2,sector_only/rf LOCO India,0.89,0.888,PASS
+T2,sector_only/rf LOCO Pakistan,0.97,0.97,PASS
+T2,sector_only/xgb pooled AUC,0.86,0.856,PASS
+T2,sector_only/xgb CI lo,0.79,0.794,PASS
+T2,sector_only/xgb CI hi,0.91,0.913,PASS
+T2,sector_only/xgb LOCO Bangladesh,0.63,0.633,PASS
+T2,sector_only/xgb LOCO India,0.93,0.929,PASS
+T2,sector_only/xgb LOCO Pakistan,0.98,0.985,PASS
+5.3,"RF neutral LOCO lower bound, Bangladesh",0.52,0.523,PASS
+5.3,"RF neutral LOCO lower bound, Pakistan",0.53,0.529,PASS
+5.3,neutral logit_l2: countries with LOCO lower bound > 0.50 (only RF has >= 2),0.0,0.0,PASS
+5.3,neutral rf: countries with LOCO lower bound > 0.50 (only RF has >= 2),2.0,2.0,PASS
+5.3,neutral xgb: countries with LOCO lower bound > 0.50 (only RF has >= 2),1.0,1.0,PASS
+5.2,211-firm sensitivity neutral logit_l2,0.65,0.647,PASS
+5.2,211-firm sensitivity neutral rf,0.7,0.7,PASS
+5.2,211-firm sensitivity neutral xgb,0.67,0.672,PASS
+T3,neutral rf-logit,0.07,0.072,PASS
+T3,neutral rf-logit CI lo,-0.02,-0.018,PASS
+T3,neutral rf-logit CI hi,0.16,0.161,PASS
+T3,neutral xgb-logit,0.05,0.047,PASS
+T3,neutral xgb-logit CI lo,-0.04,-0.036,PASS
+T3,neutral xgb-logit CI hi,0.13,0.129,PASS
+T3,neutral+sector rf-logit,0.02,0.016,PASS
+T3,neutral+sector rf-logit CI lo,-0.02,-0.02,PASS
+T3,neutral+sector rf-logit CI hi,0.06,0.056,PASS
+T3,neutral+sector xgb-logit,0.01,0.01,PASS
+T3,neutral+sector xgb-logit CI lo,-0.02,-0.023,PASS
+T3,neutral+sector xgb-logit CI hi,0.05,0.046,PASS
+T3,sector_only rf-logit,-0.01,-0.011,PASS
+T3,sector_only rf-logit CI lo,-0.04,-0.042,PASS
+T3,sector_only rf-logit CI hi,0.02,0.024,PASS
+T3,sector_only xgb-logit,0.0,0.002,PASS
+T3,sector_only xgb-logit CI lo,-0.02,-0.023,PASS
+T3,sector_only xgb-logit CI hi,0.03,0.03,PASS
+T4,controls only/logit_l2,0.65,0.645,PASS
+T4,controls only/logit_l2 CI lo,0.47,0.472,PASS
+T4,controls only/logit_l2 CI hi,0.8,0.801,PASS
+T4,controls only/rf,0.7,0.705,PASS
+T4,controls only/rf CI lo,0.55,0.55,PASS
+T4,controls only/rf CI hi,0.85,0.849,PASS
+T4,founder only/logit_l2,0.79,0.794,PASS
+T4,founder only/logit_l2 CI lo,0.65,0.647,PASS
+T4,founder only/logit_l2 CI hi,0.91,0.909,PASS
+T4,founder only/rf,0.75,0.748,PASS
+T4,founder only/rf CI lo,0.58,0.577,PASS
+T4,founder only/rf CI hi,0.88,0.884,PASS
+T4,controls + founder/logit_l2,0.79,0.791,PASS
+T4,controls + founder/logit_l2 CI lo,0.64,0.643,PASS
+T4,controls + founder/logit_l2 CI hi,0.91,0.909,PASS
+T4,controls + founder/rf,0.82,0.817,PASS
+T4,controls + founder/rf CI lo,0.68,0.677,PASS
+T4,controls + founder/rf CI hi,0.93,0.933,PASS
+T4,fundamentals/logit_l2,0.76,0.764,PASS
+T4,fundamentals/logit_l2 CI lo,0.6,0.604,PASS
+T4,fundamentals/logit_l2 CI hi,0.9,0.9,PASS
+T4,fundamentals/rf,0.79,0.794,PASS
+T4,fundamentals/rf CI lo,0.64,0.636,PASS
+T4,fundamentals/rf CI hi,0.92,0.915,PASS
+T4,fundamentals + prestige/logit_l2,0.78,0.776,PASS
+T4,fundamentals + prestige/logit_l2 CI lo,0.61,0.614,PASS
+T4,fundamentals + prestige/logit_l2 CI hi,0.91,0.909,PASS
+T4,fundamentals + prestige/rf,0.8,0.795,PASS
+T4,fundamentals + prestige/rf CI lo,0.64,0.638,PASS
+T4,fundamentals + prestige/rf CI hi,0.93,0.93,PASS
+5.5,H1 logit_l2 delta AUC,0.145,0.145,PASS
+5.5,H1 logit_l2 CI lo,-0.012,-0.012,PASS
+5.5,H1 logit_l2 CI hi,0.302,0.302,PASS
+5.5,H1 rf delta AUC,0.112,0.112,PASS
+5.5,H1 rf CI lo,-0.005,-0.005,PASS
+5.5,H1 rf CI hi,0.247,0.247,PASS
+5.5,H3 logit_l2 delta AUC,0.012,0.012,PASS
+5.5,H3 logit_l2 CI lo,-0.063,-0.063,PASS
+5.5,H3 logit_l2 CI hi,0.091,0.091,PASS
+5.5,H3 rf delta AUC,0.002,0.002,PASS
+5.5,H3 rf CI lo,-0.046,-0.046,PASS
+5.5,H3 rf CI hi,0.051,0.051,PASS
+5.5,OR edu_max_level,2.19,2.19,PASS
+5.5,OR edu_max_level CI lo,1.34,1.34,PASS
+5.5,OR edu_max_level CI hi,3.8,3.8,PASS
+5.5,OR serial_entrepreneur,1.44,1.44,PASS
+5.5,OR serial_entrepreneur CI lo,0.86,0.86,PASS
+5.5,OR serial_entrepreneur CI hi,2.32,2.32,PASS
+5.5,OR industry_exp_max_years,1.05,1.05,PASS
+5.5,OR industry_exp_max_years CI lo,0.62,0.62,PASS
+5.5,OR industry_exp_max_years CI hi,2.35,2.35,PASS
+5.5,OR any_stem_founder,0.32,0.32,PASS
+5.5,OR any_stem_founder CI lo,0.24,0.24,PASS
+5.5,OR any_stem_founder CI hi,0.47,0.47,PASS
+5.6,neutral SHAP n_founders,0.51,0.5081,PASS
+5.6,neutral SHAP gdp_growth_at_founding,0.4,0.3968,PASS
+5.6,neutral SHAP inflation_at_founding,0.2,0.2,PASS
+5.6,neutral SHAP age_years,0.13,0.1339,PASS
+5.6,neutral+sector SHAP subscription/SaaS,0.58,0.5764,PASS
+5.6,neutral+sector SHAP IT sector,0.55,0.5492,PASS
+5.6,BD founder SHAP n_founders,0.4,0.3971,PASS
+5.6,BD founder SHAP gdp_growth_at_founding,0.64,0.642,PASS
+5.6,BD founder SHAP industry_exp_max_years,0.65,0.6495,PASS
+5.6,BD founder SHAP edu_max_level,0.26,0.26,PASS
+5.6,BD founder SHAP serial_entrepreneur,0.03,0.0294,PASS
+5.6,education rank in BD founder SHAP (of 7 features),4.0,4.0,PASS
+5.6,serial entrepreneur rank (of 7),7.0,7.0,PASS
+5.7,hit rate black_box,0.87,0.87,PASS
+5.7,hit rate xai,0.867,0.867,PASS
+5.7,hit rate econometric,0.8,0.8,PASS
+5.7,hit rate heuristic,0.797,0.797,PASS
+5.7,hit rate random,0.643,0.643,PASS
+5.7,xai - black_box,-0.003,-0.003,PASS
+5.7,xai - black_box CI lo,-0.01,-0.01,PASS
+5.7,xai - black_box CI hi,0.0,0.0,PASS
+5.7,xai - heuristic,0.07,0.07,PASS
+5.7,xai - heuristic CI lo,0.02,0.02,PASS
+5.7,xai - heuristic CI hi,0.12,0.12,PASS
+5.7,xai - econometric,0.067,0.067,PASS
+5.7,xai - econometric CI lo,0.027,0.027,PASS
+5.7,xai - econometric CI hi,0.103,0.103,PASS
+5.7,black_box - heuristic,0.073,0.073,PASS
+5.7,black_box - heuristic CI lo,0.02,0.02,PASS
+5.7,black_box - heuristic CI hi,0.127,0.127,PASS
+5.7,xai - random,0.223,0.223,PASS
+5.7,xai - random CI lo,0.167,0.167,PASS
+5.7,xai - random CI hi,0.28,0.28,PASS
+item1,source flag fixed-rule AUC,0.85,0.847,PASS
+item1,source rule AUC (3 dp),0.847,0.847,PASS
+item2,STEM alone fixed-rule AUC,0.667,0.6667,PASS
+item2,source rule AUC inside the 53 complete cases,0.85,0.85,PASS
+item2,Fisher exact p (STEM x funding),0.0038,0.0038,PASS
+item3,neutral no-macro pooled AUC logit_l2,0.613,0.613,PASS
+item3,neutral no-macro pooled AUC rf,0.655,0.655,PASS
+item3,neutral no-macro pooled AUC xgb,0.636,0.636,PASS
+item7,"picks changed by SHAP filter (original, of 300)",1.0,1.0,PASS
+item7,picks changed (no macro),0.0,0.0,PASS

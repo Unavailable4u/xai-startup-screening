@@ -1,0 +1,25 @@
+spec,model,held_out,B,point,current_ci,refit_mean,refit_sd,refit_pct_ci,refit_centered_ci (point +- 1.96 sd),lower>0.5 (pct),lower>0.5 (centered)
+neutral (original),logit_l2,Bangladesh,200,0.581,"[0.449, 0.707]",0.59,0.068,"[0.458, 0.730]","[0.448, 0.714]",False,False
+neutral (original),logit_l2,India,200,0.559,"[0.404, 0.713]",0.546,0.113,"[0.323, 0.736]","[0.338, 0.780]",False,False
+neutral (original),logit_l2,Pakistan,200,0.695,"[0.491, 0.861]",0.645,0.104,"[0.376, 0.815]","[0.490, 0.900]",False,False
+neutral (original),logit_l2,CRITERION,200,,,,,,,0 of 3 -> not met,0 of 3 -> not met
+neutral (original),rf,Bangladesh,200,0.642,"[0.523, 0.770]",0.592,0.091,"[0.404, 0.767]","[0.463, 0.821]",False,False
+neutral (original),rf,India,200,0.568,"[0.397, 0.723]",0.536,0.106,"[0.322, 0.744]","[0.360, 0.776]",False,False
+neutral (original),rf,Pakistan,200,0.72,"[0.529, 0.885]",0.67,0.123,"[0.410, 0.861]","[0.478, 0.962]",False,False
+neutral (original),rf,CRITERION,200,,,,,,,0 of 3 -> not met,0 of 3 -> not met
+neutral (original),xgb,Bangladesh,200,0.614,"[0.485, 0.737]",0.591,0.091,"[0.415, 0.762]","[0.435, 0.793]",False,False
+neutral (original),xgb,India,200,0.436,"[0.269, 0.605]",0.483,0.098,"[0.294, 0.682]","[0.245, 0.627]",False,False
+neutral (original),xgb,Pakistan,200,0.728,"[0.542, 0.882]",0.67,0.125,"[0.372, 0.855]","[0.483, 0.973]",False,False
+neutral (original),xgb,CRITERION,200,,,,,,,0 of 3 -> not met,0 of 3 -> not met
+"neutral, no macro",logit_l2,Bangladesh,200,0.574,,0.587,0.07,"[0.453, 0.723]","[0.437, 0.711]",False,False
+"neutral, no macro",logit_l2,India,200,0.55,,0.546,0.115,"[0.298, 0.738]","[0.325, 0.775]",False,False
+"neutral, no macro",logit_l2,Pakistan,200,0.718,,0.689,0.102,"[0.462, 0.853]","[0.517, 0.919]",False,True
+"neutral, no macro",logit_l2,CRITERION,200,,,,,,,0 of 3 -> not met,1 of 3 -> not met
+"neutral, no macro",rf,Bangladesh,200,0.497,,0.512,0.089,"[0.341, 0.686]","[0.322, 0.672]",False,False
+"neutral, no macro",rf,India,200,0.448,,0.443,0.1,"[0.247, 0.627]","[0.253, 0.643]",False,False
+"neutral, no macro",rf,Pakistan,200,0.695,,0.633,0.122,"[0.349, 0.835]","[0.456, 0.934]",False,False
+"neutral, no macro",rf,CRITERION,200,,,,,,,0 of 3 -> not met,0 of 3 -> not met
+"neutral, no macro",xgb,Bangladesh,200,0.554,,0.555,0.083,"[0.398, 0.713]","[0.391, 0.717]",False,False
+"neutral, no macro",xgb,India,200,0.481,,0.469,0.095,"[0.291, 0.650]","[0.295, 0.667]",False,False
+"neutral, no macro",xgb,Pakistan,200,0.74,,0.66,0.108,"[0.412, 0.845]","[0.528, 0.952]",False,True
+"neutral, no macro",xgb,CRITERION,200,,,,,,,0 of 3 -> not met,1 of 3 -> not met

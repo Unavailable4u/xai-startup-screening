@@ -50,3 +50,13 @@ legacy-pilot:
 
 legacy-aipw:
 	$(PY) scripts/run_aipw.py
+
+.PHONY: check appendix ci
+check:
+	$(PY) scripts/check_manuscript_numbers.py
+
+appendix:
+	$(PY) scripts/make_appendix_tables.py
+
+ci:
+	$(PY) scripts/run_ci_methods.py
